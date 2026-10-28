@@ -1,0 +1,7 @@
+.env
+secrets/
+models/
+cache/
+reports/
+backups/
+__pycache__/

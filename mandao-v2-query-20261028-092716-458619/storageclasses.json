@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "LOGIN_TIMEOUT",
+    "message": "登录超时",
+    "status": 500,
+    "timestamp": "2026-10-28T01:27:26.445+00:00",
+    "path": "/apis/k8s/v1/clusters/5090/storageclasses",
+    "requestID": "48d07caad46f4b9198000a4282582f75"
+  }
+}

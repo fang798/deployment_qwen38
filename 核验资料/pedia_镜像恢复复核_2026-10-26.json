@@ -1,0 +1,1487 @@
+{
+  "checked_at_utc": "2026-10-26T10:15:29.458008+00:00",
+  "scope": "Registry manifest/config + layer HEAD and Docker CLI manifest checks. No complete image pull/build/GPU run.",
+  "original_r10": {
+    "reference": "sha256:d0742e7e31b16c85c9e215960604452f5f172a522d35c94ca42b7030cb0afa36",
+    "status": 200,
+    "digest": "sha256:d0742e7e31b16c85c9e215960604452f5f172a522d35c94ca42b7030cb0afa36",
+    "manifest": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.docker.distribution.manifest.list.v2+json",
+      "manifests": [
+        {
+          "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+          "size": 8058,
+          "digest": "sha256:9b61ee15612efed2b44bb38a8d83b19630162c975515d904b3449b09d16b3f14",
+          "platform": {
+            "architecture": "arm64",
+            "os": "linux"
+          }
+        },
+        {
+          "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+          "size": 8058,
+          "digest": "sha256:b3862887f9cf239705c7908d9fe5367c0a42f5083b6d0a10ac15d9cea7438bec",
+          "platform": {
+            "architecture": "amd64",
+            "os": "linux"
+          }
+        }
+      ]
+    },
+    "amd64_manifest": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "config": {
+        "mediaType": "application/vnd.docker.container.image.v1+json",
+        "size": 42730,
+        "digest": "sha256:017320da362a0c9d9f3fe50992cb20c572c7fa642594b308fd1b27085d39b4d2"
+      },
+      "layers": [
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 30593586,
+          "digest": "sha256:cf57d2112d8994ff0bb5f867ab8e776272e1d0bcfbb6e6d7f38fd7973b7140cf"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 4547272,
+          "digest": "sha256:c567a87f21d2f8e46feb4f6c427eb5559d45a1a222f73d601352403d13af1ada"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 105166716,
+          "digest": "sha256:0b3b5bd928240da4156c41fcfb400c1f4f8674acd2faee0413ab5a032dfb5f76"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 182,
+          "digest": "sha256:70f87b6ed43e1cbbe67ce74c7877fb771bf352b25d602a82ee4f840f2e265155"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 6886,
+          "digest": "sha256:526d5438c009ab7178af1646fed10ff6f47a73f5a1ae7b9f49e63e4ade7e3ae6"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 104,
+          "digest": "sha256:c31363ee2c857bb65c561c6eb06b0c736354dbc4313b09b23fa7998457655474"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 229,
+          "digest": "sha256:42d52925de68ef6fddbd656bc99875386e75f3a082c6b2ad43784c7b50f41d2a"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 233404095,
+          "digest": "sha256:662d18f8c4121dce29162eb41874be5411686effd4deb41cc518e68fb6166a48"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 1453047548,
+          "digest": "sha256:a2cb732dc78ec31fcf5e13b45ea5dda3e6a9c6265a37ebbdbf9ebcb068c92f9c"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 32,
+          "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 40658449,
+          "digest": "sha256:1dc0b4a5a4ddd3ceb81ea5e264b1146e262613bddbbd4fead307efab41bf2466"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 149,
+          "digest": "sha256:e7e67ce321ab9b15569635c8fc0cba9a30616ec528970df2eaf96c676f8fd6f2"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 164,
+          "digest": "sha256:aff994f156f5d8dc953857c8b7e1ab6ce6e6173bd70c9437b8771f37f36f16fd"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 3705,
+          "digest": "sha256:ec67e1f087d8d3776a884aae1da166ca2f09b904f70425b09b042aea16ab49d2"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 2080,
+          "digest": "sha256:e1e24a01a49e84c76bc2faf468c3a493040009b7ddf84f751e5f468366d54518"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 2080,
+          "digest": "sha256:e1e24a01a49e84c76bc2faf468c3a493040009b7ddf84f751e5f468366d54518"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 1693,
+          "digest": "sha256:3d3e68fea37a177b46b68d54d81adb944d3b2f0ec937eb66ee5ea73b1456c094"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 868,
+          "digest": "sha256:b87409e6ba943ab785809ff7994fed60b8b3ef15595fffc9fdbf908c7ee3ca45"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 5091353443,
+          "digest": "sha256:6ead486ebdd1224e8e500831bbe55270d350880049fc3f22d785ed1c2477768e"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 1016501364,
+          "digest": "sha256:8bfdd9a0ceb36bf90c3b31c8f6d4d9ce9c4bb5ff830cb499ca7b659942bcfd5e"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 895,
+          "digest": "sha256:962111dc7ac8a11651f2a7b62563464b23f799d9d8ac489cbcd2adce9155acab"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 535780,
+          "digest": "sha256:4c098a18067cab2f6604dc70736d5a5543b81f4025b3d76bb8d0e19740b7980e"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 61712141,
+          "digest": "sha256:eece510a23c03b4e515a7792907708594f09a25e96d3d4db894e9aacc8901201"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 197,
+          "digest": "sha256:df18baf79077aa6079b5a396a0861ae7d9139f3539a24478c622a6941862f778"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 236,
+          "digest": "sha256:b7f01e71dc642f1af6da63fba370a74c9f680625db3c53c9106a77ac27be46d9"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 304811776,
+          "digest": "sha256:c1c99ca2abba4bbfb70b90a7fd1143fa7ecfb0d073069f73d17c0c4f8d6b6091"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 32,
+          "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 253,
+          "digest": "sha256:37799aeadb516b30d664354b7dc0b638f0051ea6d8e832fde13235e3e656c156"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 14479845,
+          "digest": "sha256:3c0562142d94398ae064c35a8cd663f486c22c54fbb33f4e660931086811e5e1"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 278346,
+          "digest": "sha256:fd62e72b28da68f03480fda2a1dd89ef5149c90d9ee5be2e37fc13d91b2fc83e"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 299973,
+          "digest": "sha256:6580d1e931aab5276d30f7fda94c5df6e820ba565608c5da6c5524f9babbb26c"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 9841,
+          "digest": "sha256:bb77a5ed97edc2038460c1fc0c72c9881f1974c51e48d4964afcba4c348b39d0"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 356808649,
+          "digest": "sha256:bdb5f555b8cdcf481c33c523f2f7188edda26b343359dca4f6a03c3d2352119a"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 92,
+          "digest": "sha256:2cf462d7ca919e0d4989afe05a07772003f13de889ffaff1e85d5ae3b9227cb6"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 212,
+          "digest": "sha256:6c9ab2e0247cc4d297e83559d7dcb12d4ea4341c182aaee3db72c9a8dce9d660"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 825,
+          "digest": "sha256:f1a289f94a169a3fdb139637c3e3910499ad0cedd93dba582d0e96d1af3c5077"
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "size": 182,
+          "digest": "sha256:82cca3fe0c0bd8e9ecb5a0003880fe3bcaa2894d9a882517cf7e399bbedb8bb1"
+        }
+      ]
+    },
+    "amd64_manifest_digest": "sha256:b3862887f9cf239705c7908d9fe5367c0a42f5083b6d0a10ac15d9cea7438bec",
+    "amd64_config": {
+      "architecture": "amd64",
+      "config": {
+        "Env": [
+          "PATH=/usr/local/cuda/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "NVARCH=x86_64",
+          "NVIDIA_REQUIRE_CUDA=cuda>=13.0 brand=unknown,driver>=535,driver<536 brand=grid,driver>=535,driver<536 brand=tesla,driver>=535,driver<536 brand=nvidia,driver>=535,driver<536 brand=quadro,driver>=535,driver<536 brand=quadrortx,driver>=535,driver<536 brand=nvidiartx,driver>=535,driver<536 brand=vapps,driver>=535,driver<536 brand=vpc,driver>=535,driver<536 brand=vcs,driver>=535,driver<536 brand=vws,driver>=535,driver<536 brand=cloudgaming,driver>=535,driver<536 brand=unknown,driver>=550,driver<551 brand=grid,driver>=550,driver<551 brand=tesla,driver>=550,driver<551 brand=nvidia,driver>=550,driver<551 brand=quadro,driver>=550,driver<551 brand=quadrortx,driver>=550,driver<551 brand=nvidiartx,driver>=550,driver<551 brand=vapps,driver>=550,driver<551 brand=vpc,driver>=550,driver<551 brand=vcs,driver>=550,driver<551 brand=vws,driver>=550,driver<551 brand=cloudgaming,driver>=550,driver<551 brand=unknown,driver>=565,driver<566 brand=grid,driver>=565,driver<566 brand=tesla,driver>=565,driver<566 brand=nvidia,driver>=565,driver<566 brand=quadro,driver>=565,driver<566 brand=quadrortx,driver>=565,driver<566 brand=nvidiartx,driver>=565,driver<566 brand=vapps,driver>=565,driver<566 brand=vpc,driver>=565,driver<566 brand=vcs,driver>=565,driver<566 brand=vws,driver>=565,driver<566 brand=cloudgaming,driver>=565,driver<566 brand=unknown,driver>=570,driver<571 brand=grid,driver>=570,driver<571 brand=tesla,driver>=570,driver<571 brand=nvidia,driver>=570,driver<571 brand=quadro,driver>=570,driver<571 brand=quadrortx,driver>=570,driver<571 brand=nvidiartx,driver>=570,driver<571 brand=vapps,driver>=570,driver<571 brand=vpc,driver>=570,driver<571 brand=vcs,driver>=570,driver<571 brand=vws,driver>=570,driver<571 brand=cloudgaming,driver>=570,driver<571 brand=unknown,driver>=575,driver<576 brand=grid,driver>=575,driver<576 brand=tesla,driver>=575,driver<576 brand=nvidia,driver>=575,driver<576 brand=quadro,driver>=575,driver<576 brand=quadrortx,driver>=575,driver<576 brand=nvidiartx,driver>=575,driver<576 brand=vapps,driver>=575,driver<576 brand=vpc,driver>=575,driver<576 brand=vcs,driver>=575,driver<576 brand=vws,driver>=575,driver<576 brand=cloudgaming,driver>=575,driver<576",
+          "NV_CUDA_CUDART_VERSION=13.0.96-1",
+          "CUDA_VERSION=13.0.2",
+          "LD_LIBRARY_PATH=/usr/local/nvidia/lib64:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/cuda/lib64",
+          "NVIDIA_VISIBLE_DEVICES=all",
+          "NVIDIA_DRIVER_CAPABILITIES=compute,utility",
+          "DEBIAN_FRONTEND=noninteractive",
+          "CUDA_HOME=/usr/local/cuda",
+          "UV_HTTP_TIMEOUT=500",
+          "UV_INDEX_STRATEGY=unsafe-best-match",
+          "UV_LINK_MODE=copy",
+          "UV_PYTHON_INSTALL_DIR=/opt/uv/python",
+          "UV_CACHE_DIR=/opt/uv/cache",
+          "UV_OVERRIDE=/etc/uv-overrides.txt",
+          "VLLM_ENABLE_CUDA_COMPATIBILITY=0",
+          "TORCH_CUDA_ARCH_LIST=7.5 8.0 8.6 8.9 9.0 10.0 12.0",
+          "VLLM_USAGE_SOURCE=production-docker-image",
+          "VLLM_BUILD_COMMIT=eed1f3d0c6043bd494424a22443ee198dd56f657",
+          "VLLM_BUILD_PIPELINE=019d130e-464e-4ff7-b84b-492992c0c06b",
+          "VLLM_BUILD_URL=https://buildkite.com/vllm/release-v2/builds/6475",
+          "VLLM_IMAGE_TAG=vllm/vllm-openai:nightly-eed1f3d0c6043bd494424a22443ee198dd56f657"
+        ],
+        "Entrypoint": [
+          "vllm",
+          "serve"
+        ],
+        "WorkingDir": "/vllm-workspace",
+        "Labels": {
+          "ai.vllm.build.commit": "eed1f3d0c6043bd494424a22443ee198dd56f657",
+          "ai.vllm.build.pipeline": "019d130e-464e-4ff7-b84b-492992c0c06b",
+          "ai.vllm.build.url": "https://buildkite.com/vllm/release-v2/builds/6475",
+          "ai.vllm.image.tag": "vllm/vllm-openai:nightly-eed1f3d0c6043bd494424a22443ee198dd56f657",
+          "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+          "org.opencontainers.image.ref.name": "ubuntu",
+          "org.opencontainers.image.revision": "eed1f3d0c6043bd494424a22443ee198dd56f657",
+          "org.opencontainers.image.source": "https://github.com/vllm-project/vllm",
+          "org.opencontainers.image.url": "https://buildkite.com/vllm/release-v2/builds/6475",
+          "org.opencontainers.image.version": "vllm/vllm-openai:nightly-eed1f3d0c6043bd494424a22443ee198dd56f657"
+        },
+        "OnBuild": null
+      },
+      "created": "2026-09-12T05:22:06.323822817Z",
+      "history": [
+        {
+          "created": "2025-10-01T13:01:35.209126922Z",
+          "created_by": "/bin/sh -c #(nop)  ARG RELEASE",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-01T13:01:35.239536352Z",
+          "created_by": "/bin/sh -c #(nop)  ARG LAUNCHPAD_BUILD_ARCH",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-01T13:01:35.272673533Z",
+          "created_by": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.ref.name=ubuntu",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-01T13:01:35.298648213Z",
+          "created_by": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.version=24.04",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-01T13:01:37.490648801Z",
+          "created_by": "/bin/sh -c #(nop) ADD file:249778a1782b02a1c2bcf9f292f5778d81442a53c3de1958d712f10baf7e0b60 in / "
+        },
+        {
+          "created": "2025-10-01T13:01:37.838375075Z",
+          "created_by": "/bin/sh -c #(nop)  CMD [\"/bin/bash\"]",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T16:48:09.055728035Z",
+          "created_by": "ENV NVARCH=x86_64",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T16:48:09.055728035Z",
+          "created_by": "ENV NVIDIA_REQUIRE_CUDA=cuda>=13.0 brand=unknown,driver>=535,driver<536 brand=grid,driver>=535,driver<536 brand=tesla,driver>=535,driver<536 brand=nvidia,driver>=535,driver<536 brand=quadro,driver>=535,driver<536 brand=quadrortx,driver>=535,driver<536 brand=nvidiartx,driver>=535,driver<536 brand=vapps,driver>=535,driver<536 brand=vpc,driver>=535,driver<536 brand=vcs,driver>=535,driver<536 brand=vws,driver>=535,driver<536 brand=cloudgaming,driver>=535,driver<536 brand=unknown,driver>=550,driver<551 brand=grid,driver>=550,driver<551 brand=tesla,driver>=550,driver<551 brand=nvidia,driver>=550,driver<551 brand=quadro,driver>=550,driver<551 brand=quadrortx,driver>=550,driver<551 brand=nvidiartx,driver>=550,driver<551 brand=vapps,driver>=550,driver<551 brand=vpc,driver>=550,driver<551 brand=vcs,driver>=550,driver<551 brand=vws,driver>=550,driver<551 brand=cloudgaming,driver>=550,driver<551 brand=unknown,driver>=565,driver<566 brand=grid,driver>=565,driver<566 brand=tesla,driver>=565,driver<566 brand=nvidia,driver>=565,driver<566 brand=quadro,driver>=565,driver<566 brand=quadrortx,driver>=565,driver<566 brand=nvidiartx,driver>=565,driver<566 brand=vapps,driver>=565,driver<566 brand=vpc,driver>=565,driver<566 brand=vcs,driver>=565,driver<566 brand=vws,driver>=565,driver<566 brand=cloudgaming,driver>=565,driver<566 brand=unknown,driver>=570,driver<571 brand=grid,driver>=570,driver<571 brand=tesla,driver>=570,driver<571 brand=nvidia,driver>=570,driver<571 brand=quadro,driver>=570,driver<571 brand=quadrortx,driver>=570,driver<571 brand=nvidiartx,driver>=570,driver<571 brand=vapps,driver>=570,driver<571 brand=vpc,driver>=570,driver<571 brand=vcs,driver>=570,driver<571 brand=vws,driver>=570,driver<571 brand=cloudgaming,driver>=570,driver<571 brand=unknown,driver>=575,driver<576 brand=grid,driver>=575,driver<576 brand=tesla,driver>=575,driver<576 brand=nvidia,driver>=575,driver<576 brand=quadro,driver>=575,driver<576 brand=quadrortx,driver>=575,driver<576 brand=nvidiartx,driver>=575,driver<576 brand=vapps,driver>=575,driver<576 brand=vpc,driver>=575,driver<576 brand=vcs,driver>=575,driver<576 brand=vws,driver>=575,driver<576 brand=cloudgaming,driver>=575,driver<576",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T16:48:09.055728035Z",
+          "created_by": "ENV NV_CUDA_CUDART_VERSION=13.0.96-1",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T16:48:09.055728035Z",
+          "created_by": "ARG TARGETARCH",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T16:48:09.055728035Z",
+          "created_by": "LABEL maintainer=NVIDIA CORPORATION <cudatools@nvidia.com>",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T16:48:09.055728035Z",
+          "created_by": "RUN |1 TARGETARCH=amd64 /bin/sh -c apt-get update && apt-get install -y --no-install-recommends     gnupg2 curl ca-certificates &&     curl -fsSL https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/${NVARCH}/3bf863cc.pub | apt-key add - &&     echo \"deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/${NVARCH} /\" > /etc/apt/sources.list.d/cuda.list &&     apt-get purge --autoremove -y curl     && rm -rf /var/lib/apt/lists/* # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T16:48:09.055728035Z",
+          "created_by": "ENV CUDA_VERSION=13.0.2",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T16:48:26.32394858Z",
+          "created_by": "RUN |1 TARGETARCH=amd64 /bin/sh -c apt-get update && apt-get install -y --no-install-recommends     cuda-cudart-13-0=${NV_CUDA_CUDART_VERSION}     cuda-compat-13-0     && rm -rf /var/lib/apt/lists/* # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T16:48:26.498918824Z",
+          "created_by": "RUN |1 TARGETARCH=amd64 /bin/sh -c echo \"/usr/local/cuda/lib64\" >> /etc/ld.so.conf.d/nvidia.conf # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T16:48:26.498918824Z",
+          "created_by": "ENV PATH=/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T16:48:26.498918824Z",
+          "created_by": "ENV LD_LIBRARY_PATH=/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/cuda/lib64",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T16:48:26.587960143Z",
+          "created_by": "COPY NGC-DL-CONTAINER-LICENSE / # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T16:48:26.587960143Z",
+          "created_by": "ENV NVIDIA_VISIBLE_DEVICES=all",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T16:48:26.587960143Z",
+          "created_by": "ENV NVIDIA_DRIVER_CAPABILITIES=compute,utility",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:03:54.481355868Z",
+          "created_by": "ARG INSTALL_RUBIN_PRERELEASE",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:03:54.481355868Z",
+          "created_by": "ARG CUDA_VERSION",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:03:54.481355868Z",
+          "created_by": "ARG PYTHON_VERSION",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:03:54.481355868Z",
+          "created_by": "ARG NCCL_VERSION",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:03:54.481355868Z",
+          "created_by": "ARG DEADSNAKES_MIRROR_URL",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:03:54.481355868Z",
+          "created_by": "ARG DEADSNAKES_GPGKEY_URL",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:03:54.481355868Z",
+          "created_by": "ARG GET_PIP_URL",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:03:54.481355868Z",
+          "created_by": "ENV CUDA_VERSION=13.0.2",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:03:54.481355868Z",
+          "created_by": "ENV DEBIAN_FRONTEND=noninteractive",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:03:54.481355868Z",
+          "created_by": "WORKDIR /vllm-workspace",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:03:56.641950921Z",
+          "created_by": "RUN |7 INSTALL_RUBIN_PRERELEASE=false CUDA_VERSION=13.0.2 PYTHON_VERSION=3.12 NCCL_VERSION=2.30.7 DEADSNAKES_MIRROR_URL= DEADSNAKES_GPGKEY_URL= GET_PIP_URL=https://bootstrap.pypa.io/get-pip.py /bin/sh -c PYTHON_VERSION_STR=$(echo ${PYTHON_VERSION} | sed 's/\\.//g') &&     echo \"export PYTHON_VERSION_STR=${PYTHON_VERSION_STR}\" >> /etc/environment # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:05:12.319518592Z",
+          "created_by": "RUN |7 INSTALL_RUBIN_PRERELEASE=false CUDA_VERSION=13.0.2 PYTHON_VERSION=3.12 NCCL_VERSION=2.30.7 DEADSNAKES_MIRROR_URL= DEADSNAKES_GPGKEY_URL= GET_PIP_URL=https://bootstrap.pypa.io/get-pip.py /bin/sh -c apt-get update -y     && apt-get install -y --no-install-recommends         software-properties-common         curl         sudo         ffmpeg         libsm6         libxext6         libgl1     && if [ ! -z ${DEADSNAKES_MIRROR_URL} ] ; then         if [ ! -z \"${DEADSNAKES_GPGKEY_URL}\" ] ; then             mkdir -p -m 0755 /etc/apt/keyrings ;             curl -L ${DEADSNAKES_GPGKEY_URL} | gpg --dearmor > /etc/apt/keyrings/deadsnakes.gpg ;             sudo chmod 644 /etc/apt/keyrings/deadsnakes.gpg ;             echo \"deb [signed-by=/etc/apt/keyrings/deadsnakes.gpg] ${DEADSNAKES_MIRROR_URL} $(lsb_release -cs) main\" > /etc/apt/sources.list.d/deadsnakes.list ;         fi ;     else         for i in 1 2 3; do             add-apt-repository -y ppa:deadsnakes/ppa && break ||             { echo \"Attempt $i failed, retrying in 5s...\"; sleep 5; };         done ;     fi     && apt-get update -y     && apt-get install -y --no-install-recommends         python${PYTHON_VERSION}         python${PYTHON_VERSION}-dev         python${PYTHON_VERSION}-venv         libibverbs-dev     && rm -rf /var/lib/apt/lists/*     && update-alternatives --install /usr/bin/python3 python3 /usr/bin/python${PYTHON_VERSION} 1     && update-alternatives --set python3 /usr/bin/python${PYTHON_VERSION}     && ln -sf /usr/bin/python${PYTHON_VERSION}-config /usr/bin/python3-config     && rm -f /usr/lib/python${PYTHON_VERSION}/EXTERNALLY-MANAGED     && curl -sS ${GET_PIP_URL} | python${PYTHON_VERSION}     && python3 --version && python3 -m pip --version # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:05:49.389619527Z",
+          "created_by": "RUN |7 INSTALL_RUBIN_PRERELEASE=false CUDA_VERSION=13.0.2 PYTHON_VERSION=3.12 NCCL_VERSION=2.30.7 DEADSNAKES_MIRROR_URL= DEADSNAKES_GPGKEY_URL= GET_PIP_URL=https://bootstrap.pypa.io/get-pip.py /bin/sh -c CUDA_VERSION_DASH=$(echo $CUDA_VERSION | cut -d. -f1,2 | tr '.' '-') &&     apt-get update -y &&     apt-get install -y --no-install-recommends --allow-change-held-packages         cuda-nvcc-${CUDA_VERSION_DASH}         cuda-cudart-${CUDA_VERSION_DASH}         cuda-nvrtc-${CUDA_VERSION_DASH}         cuda-nvrtc-dev-${CUDA_VERSION_DASH}         cuda-cuobjdump-${CUDA_VERSION_DASH}         libcurand-dev-${CUDA_VERSION_DASH}         libcublas-dev-${CUDA_VERSION_DASH}         libnuma-dev         numactl &&     rm -rf /var/lib/apt/lists/* # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:05:49.389619527Z",
+          "created_by": "ENV CUDA_HOME=/usr/local/cuda",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:05:49.389619527Z",
+          "created_by": "ENV PATH=/usr/local/cuda/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:05:49.389619527Z",
+          "created_by": "ENV LD_LIBRARY_PATH=/usr/local/cuda/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/cuda/lib64",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:05:50.658354063Z",
+          "created_by": "RUN |7 INSTALL_RUBIN_PRERELEASE=false CUDA_VERSION=13.0.2 PYTHON_VERSION=3.12 NCCL_VERSION=2.30.7 DEADSNAKES_MIRROR_URL= DEADSNAKES_GPGKEY_URL= GET_PIP_URL=https://bootstrap.pypa.io/get-pip.py /bin/sh -c if [ \"${INSTALL_RUBIN_PRERELEASE}\" = \"true\" ]; then         CUDA_MAJOR_MINOR=$(echo \"${CUDA_VERSION}\" | cut -d. -f1,2)         && if [ \"${CUDA_MAJOR_MINOR}\" = \"13.4\" ]; then             CURAND_LIBRARY=$(find -H /usr/local/cuda -name libcurand.so.10                 -print -quit)             && test -n \"${CURAND_LIBRARY}\"             && ln -sf \"${CURAND_LIBRARY}\"                 /usr/local/cuda/lib64/libcurand.so.11;         elif [ \"${CUDA_MAJOR_MINOR}\" = \"13.5\" ]; then             CURAND_LIBRARY=$(find -H /usr/local/cuda -name libcurand.so.11                 -print -quit)             && test -n \"${CURAND_LIBRARY}\"             && ! readlink -f \"${CURAND_LIBRARY}\" | grep -q 'libcurand\\.so\\.10';         else             echo \"Unsupported Rubin CUDA version: ${CUDA_MAJOR_MINOR}\" >&2;             exit 1;         fi         && if NCCL_LIBRARY=$(find /usr/lib -name libnccl.so.2 -print -quit)             && [ -n \"${NCCL_LIBRARY}\" ]; then             if [ \"${NCCL_LIBRARY}\" != \"/usr/lib/libnccl.so.2\" ]; then                 ln -sf \"${NCCL_LIBRARY}\" /usr/lib/libnccl.so.2;             fi             && ln -sf libnccl.so.2 /usr/lib/libnccl.so;         fi         && ldconfig;     fi # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:05:52.315265064Z",
+          "created_by": "RUN |7 INSTALL_RUBIN_PRERELEASE=false CUDA_VERSION=13.0.2 PYTHON_VERSION=3.12 NCCL_VERSION=2.30.7 DEADSNAKES_MIRROR_URL= DEADSNAKES_GPGKEY_URL= GET_PIP_URL=https://bootstrap.pypa.io/get-pip.py /bin/sh -c python3 -m pip install uv # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:05:52.315265064Z",
+          "created_by": "ENV UV_HTTP_TIMEOUT=500",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:05:52.315265064Z",
+          "created_by": "ENV UV_INDEX_STRATEGY=unsafe-best-match",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:05:52.315265064Z",
+          "created_by": "ENV UV_LINK_MODE=copy",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:05:52.315265064Z",
+          "created_by": "ENV UV_PYTHON_INSTALL_DIR=/opt/uv/python",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:05:52.315265064Z",
+          "created_by": "ENV UV_CACHE_DIR=/opt/uv/cache",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:05:53.226032248Z",
+          "created_by": "RUN |7 INSTALL_RUBIN_PRERELEASE=false CUDA_VERSION=13.0.2 PYTHON_VERSION=3.12 NCCL_VERSION=2.30.7 DEADSNAKES_MIRROR_URL= DEADSNAKES_GPGKEY_URL= GET_PIP_URL=https://bootstrap.pypa.io/get-pip.py /bin/sh -c mkdir -p \"${UV_PYTHON_INSTALL_DIR}\" \"${UV_CACHE_DIR}\"     && chgrp -R 0 /opt/uv     && chmod -R g+rwX,a+rX /opt/uv # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:05:53.939304815Z",
+          "created_by": "RUN |7 INSTALL_RUBIN_PRERELEASE=false CUDA_VERSION=13.0.2 PYTHON_VERSION=3.12 NCCL_VERSION=2.30.7 DEADSNAKES_MIRROR_URL= DEADSNAKES_GPGKEY_URL= GET_PIP_URL=https://bootstrap.pypa.io/get-pip.py /bin/sh -c CUDA_MAJOR=$(echo $CUDA_VERSION | cut -d. -f1) &&     if [ -n \"$NCCL_VERSION\" ]; then         echo \"nvidia-nccl-cu${CUDA_MAJOR}==${NCCL_VERSION}\"             > /etc/uv-overrides.txt;     else         touch /etc/uv-overrides.txt;     fi # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:05:53.939304815Z",
+          "created_by": "ENV UV_OVERRIDE=/etc/uv-overrides.txt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:05:55.060232322Z",
+          "created_by": "RUN |7 INSTALL_RUBIN_PRERELEASE=false CUDA_VERSION=13.0.2 PYTHON_VERSION=3.12 NCCL_VERSION=2.30.7 DEADSNAKES_MIRROR_URL= DEADSNAKES_GPGKEY_URL= GET_PIP_URL=https://bootstrap.pypa.io/get-pip.py /bin/sh -c useradd --uid 2000 --gid 0 --create-home --home-dir /home/vllm         --shell /bin/bash vllm     && mkdir -p /home/vllm/.cache /home/vllm/.config     && chown -R 2000:0 /home/vllm     && chmod -R g+rwX /home/vllm     && chgrp 0 /etc/passwd /etc/group     && chmod g=u /etc/passwd /etc/group # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:05:55.093593788Z",
+          "created_by": "COPY docker/entrypoints/vllm-nonroot-entrypoint.sh /usr/local/bin/vllm-nonroot-entrypoint.sh # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:05:55.618644768Z",
+          "created_by": "RUN |7 INSTALL_RUBIN_PRERELEASE=false CUDA_VERSION=13.0.2 PYTHON_VERSION=3.12 NCCL_VERSION=2.30.7 DEADSNAKES_MIRROR_URL= DEADSNAKES_GPGKEY_URL= GET_PIP_URL=https://bootstrap.pypa.io/get-pip.py /bin/sh -c chmod 0755 /usr/local/bin/vllm-nonroot-entrypoint.sh # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:05:55.618644768Z",
+          "created_by": "ENV VLLM_ENABLE_CUDA_COMPATIBILITY=0",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:05:55.618644768Z",
+          "created_by": "ARG PYTORCH_CUDA_INDEX_BASE_URL",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:05:55.664641273Z",
+          "created_by": "COPY requirements/common.txt /tmp/common.txt # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:05:55.840079583Z",
+          "created_by": "COPY requirements/cuda.txt /tmp/requirements-cuda.txt # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:07:14.520263346Z",
+          "created_by": "RUN |8 INSTALL_RUBIN_PRERELEASE=false CUDA_VERSION=13.0.2 PYTHON_VERSION=3.12 NCCL_VERSION=2.30.7 DEADSNAKES_MIRROR_URL= DEADSNAKES_GPGKEY_URL= GET_PIP_URL=https://bootstrap.pypa.io/get-pip.py PYTORCH_CUDA_INDEX_BASE_URL=https://download.pytorch.org/whl /bin/sh -c if [ \"${INSTALL_RUBIN_PRERELEASE}\" = \"true\" ] &&         [ ! -f /tmp/vllm-requirements/rubin-prerelease.txt ]; then         echo \"INSTALL_RUBIN_PRERELEASE=true requires requirements/rubin-prerelease.txt\" >&2;         exit 1;     fi &&     if [ \"$(echo $CUDA_VERSION | cut -d. -f1)\" = \"12\" ]; then         sed -i 's/^nvidia-cutlass-dsl\\[cu13\\]/nvidia-cutlass-dsl/' /tmp/requirements-cuda.txt;         sed -i 's/^humming-kernels\\[cu13\\]/humming-kernels[cu12]/' /tmp/requirements-cuda.txt;     fi &&     if [ \"${INSTALL_RUBIN_PRERELEASE}\" = \"true\" ]; then         uv pip install --system             -r /tmp/vllm-requirements/rubin-prerelease.txt         && sed -Ei '/^[[:space:]]*(torch|torchvision|torchaudio)[[:space:]]*==/Id'             /tmp/requirements-cuda.txt         && uv pip install --system -r /tmp/requirements-cuda.txt         && uv pip install --system             -r /tmp/vllm-requirements/rubin-prerelease.txt         && printf '%s\\n'             \"/usr/local/lib/python${PYTHON_VERSION}/dist-packages/nvpl/lib\"             > /etc/ld.so.conf.d/vllm-rubin-python.conf         && ldconfig;     else         uv pip install --system             -r /tmp/requirements-cuda.txt             --extra-index-url ${PYTORCH_CUDA_INDEX_BASE_URL}/cu$(echo $CUDA_VERSION | cut -d. -f1,2 | tr -d '.');     fi &&     rm /tmp/requirements-cuda.txt /tmp/common.txt # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:07:14.520263346Z",
+          "created_by": "ARG FLASHINFER_VERSION=0.6.18.post1",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:07:27.30844373Z",
+          "created_by": "RUN |9 INSTALL_RUBIN_PRERELEASE=false CUDA_VERSION=13.0.2 PYTHON_VERSION=3.12 NCCL_VERSION=2.30.7 DEADSNAKES_MIRROR_URL= DEADSNAKES_GPGKEY_URL= GET_PIP_URL=https://bootstrap.pypa.io/get-pip.py PYTORCH_CUDA_INDEX_BASE_URL=https://download.pytorch.org/whl FLASHINFER_VERSION=0.6.18.post1 /bin/sh -c if [ \"${INSTALL_RUBIN_PRERELEASE}\" != \"true\" ]; then         uv pip install --system flashinfer-jit-cache==${FLASHINFER_VERSION}             --index-url https://flashinfer.ai/whl/cu$(echo $CUDA_VERSION | cut -d. -f1,2 | tr -d '.');     fi # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:07:27.30844373Z",
+          "created_by": "ARG GDRCOPY_CUDA_VERSION=12.8",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:07:27.30844373Z",
+          "created_by": "ARG GDRCOPY_OS_VERSION=Ubuntu24_04",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:07:27.30844373Z",
+          "created_by": "ARG TARGETPLATFORM",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:07:27.682749218Z",
+          "created_by": "COPY tools/install_gdrcopy.sh /tmp/install_gdrcopy.sh # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:07:32.949881271Z",
+          "created_by": "RUN |12 INSTALL_RUBIN_PRERELEASE=false CUDA_VERSION=13.0.2 PYTHON_VERSION=3.12 NCCL_VERSION=2.30.7 DEADSNAKES_MIRROR_URL= DEADSNAKES_GPGKEY_URL= GET_PIP_URL=https://bootstrap.pypa.io/get-pip.py PYTORCH_CUDA_INDEX_BASE_URL=https://download.pytorch.org/whl FLASHINFER_VERSION=0.6.18.post1 GDRCOPY_CUDA_VERSION=12.8 GDRCOPY_OS_VERSION=Ubuntu24_04 TARGETPLATFORM=linux/amd64 /bin/sh -c set -eux;     if [ \"${INSTALL_RUBIN_PRERELEASE}\" = \"true\" ] && ldconfig -p | grep -q 'libgdrapi\\.so'; then         true;     else         case \"${TARGETPLATFORM}\" in           linux/arm64) UUARCH=\"aarch64\" ;;           linux/amd64) UUARCH=\"x64\" ;;           *) echo \"Unsupported TARGETPLATFORM: ${TARGETPLATFORM}\" >&2; exit 1 ;;         esac;         /tmp/install_gdrcopy.sh             \"${GDRCOPY_OS_VERSION}\" \"${GDRCOPY_CUDA_VERSION}\" \"${UUARCH}\";     fi;     rm /tmp/install_gdrcopy.sh # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:07:32.949881271Z",
+          "created_by": "ARG TIMM_VERSION=>=1.0.17",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:07:32.949881271Z",
+          "created_by": "ARG RUNAI_MODEL_STREAMER_VERSION=>=0.15.7",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:07:35.005368083Z",
+          "created_by": "RUN |14 INSTALL_RUBIN_PRERELEASE=false CUDA_VERSION=13.0.2 PYTHON_VERSION=3.12 NCCL_VERSION=2.30.7 DEADSNAKES_MIRROR_URL= DEADSNAKES_GPGKEY_URL= GET_PIP_URL=https://bootstrap.pypa.io/get-pip.py PYTORCH_CUDA_INDEX_BASE_URL=https://download.pytorch.org/whl FLASHINFER_VERSION=0.6.18.post1 GDRCOPY_CUDA_VERSION=12.8 GDRCOPY_OS_VERSION=Ubuntu24_04 TARGETPLATFORM=linux/amd64 TIMM_VERSION=>=1.0.17 RUNAI_MODEL_STREAMER_VERSION=>=0.15.7 /bin/sh -c uv pip install --system accelerate 'modelscope<1.38'         \"timm${TIMM_VERSION}\" \"runai-model-streamer[s3,gcs,azure]${RUNAI_MODEL_STREAMER_VERSION}\" # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:07:35.005368083Z",
+          "created_by": "ARG PIP_INDEX_URL UV_INDEX_URL",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:07:35.005368083Z",
+          "created_by": "ARG PIP_EXTRA_INDEX_URL UV_EXTRA_INDEX_URL",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:07:35.005368083Z",
+          "created_by": "ARG PYTORCH_CUDA_INDEX_BASE_URL",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:07:35.005368083Z",
+          "created_by": "ARG PIP_KEYRING_PROVIDER UV_KEYRING_PROVIDER",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:07:35.005368083Z",
+          "created_by": "ARG PYTORCH_NIGHTLY",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:08:38.834119243Z",
+          "created_by": "COPY /workspace/torch_lib_versions.txt torch_lib_versions.txt # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:21:50.35147944Z",
+          "created_by": "COPY /workspace/dist/wheel.sha256 /tmp/vllm-wheel.sha256 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:21:55.362874047Z",
+          "created_by": "RUN |8 PIP_INDEX_URL= UV_INDEX_URL= PIP_EXTRA_INDEX_URL= UV_EXTRA_INDEX_URL= PYTORCH_CUDA_INDEX_BASE_URL=https://download.pytorch.org/whl PIP_KEYRING_PROVIDER=disabled UV_KEYRING_PROVIDER=disabled PYTORCH_NIGHTLY= /bin/sh -c if [ \"${PYTORCH_NIGHTLY}\" = \"1\" ]; then         echo \"Installing torch nightly...\"         && uv pip install --system $(cat torch_lib_versions.txt | xargs) --pre         --index-url ${PYTORCH_CUDA_INDEX_BASE_URL}/nightly/cu$(echo $CUDA_VERSION | cut -d. -f1,2 | tr -d '.')         && echo \"Installing vLLM...\"         && uv pip install --system dist/*.whl --verbose         --extra-index-url ${PYTORCH_CUDA_INDEX_BASE_URL}/nightly/cu$(echo $CUDA_VERSION | cut -d. -f1,2 | tr -d '.');     else         echo \"Installing vLLM...\"         && uv pip install --system dist/*.whl --verbose         --extra-index-url ${PYTORCH_CUDA_INDEX_BASE_URL}/cu$(echo $CUDA_VERSION | cut -d. -f1,2 | tr -d '.');     fi # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:21:55.83057135Z",
+          "created_by": "RUN |8 PIP_INDEX_URL= UV_INDEX_URL= PIP_EXTRA_INDEX_URL= UV_EXTRA_INDEX_URL= PYTORCH_CUDA_INDEX_BASE_URL=https://download.pytorch.org/whl PIP_KEYRING_PROVIDER=disabled UV_KEYRING_PROVIDER=disabled PYTORCH_NIGHTLY= /bin/sh -c . /etc/environment && uv pip list # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:21:55.83057135Z",
+          "created_by": "ENV LD_LIBRARY_PATH=/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/cuda/lib64",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:21:55.881263677Z",
+          "created_by": "COPY /tmp/ep_kernels_workspace/dist/wheels.sha256 /tmp/ep-kernels-wheels.sha256 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:21:56.712087259Z",
+          "created_by": "RUN |8 PIP_INDEX_URL= UV_INDEX_URL= PIP_EXTRA_INDEX_URL= UV_EXTRA_INDEX_URL= PYTORCH_CUDA_INDEX_BASE_URL=https://download.pytorch.org/whl PIP_KEYRING_PROVIDER=disabled UV_KEYRING_PROVIDER=disabled PYTORCH_NIGHTLY= /bin/sh -c uv pip install --system ep_kernels/dist/*.whl --verbose         --extra-index-url ${PYTORCH_CUDA_INDEX_BASE_URL}/cu$(echo $CUDA_VERSION | cut -d. -f1,2 | tr -d '.') # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:21:56.712087259Z",
+          "created_by": "ENV LD_LIBRARY_PATH=/usr/local/nvidia/lib64:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/cuda/lib64",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:21:56.757556679Z",
+          "created_by": "COPY examples examples # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:21:56.810792634Z",
+          "created_by": "COPY benchmarks benchmarks # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:21:57.051288002Z",
+          "created_by": "COPY ./vllm/collect_env.py . # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:21:57.051288002Z",
+          "created_by": "ARG TARGETPLATFORM",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:21:57.051288002Z",
+          "created_by": "ARG INSTALL_KV_CONNECTORS=false",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:21:57.051288002Z",
+          "created_by": "ARG INSTALL_RUBIN_PRERELEASE",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:21:57.051288002Z",
+          "created_by": "ARG TRITON_INSTALL_FROM_SOURCE_REPO",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:21:57.051288002Z",
+          "created_by": "ARG CUDA_VERSION",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:21:57.051288002Z",
+          "created_by": "ARG VLLM_BUILD_COMMIT",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:21:57.051288002Z",
+          "created_by": "ARG VLLM_BUILD_PIPELINE",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:21:57.051288002Z",
+          "created_by": "ARG VLLM_BUILD_URL",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:21:57.051288002Z",
+          "created_by": "ARG VLLM_IMAGE_TAG",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:21:57.051288002Z",
+          "created_by": "ARG PIP_INDEX_URL UV_INDEX_URL",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:21:57.051288002Z",
+          "created_by": "ARG PIP_EXTRA_INDEX_URL UV_EXTRA_INDEX_URL",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:21:57.051288002Z",
+          "created_by": "ENV UV_HTTP_TIMEOUT=500",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:21:57.051288002Z",
+          "created_by": "ARG torch_cuda_arch_list=7.5 8.0 8.6 8.9 9.0 10.0 11.0 12.0",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:21:57.051288002Z",
+          "created_by": "ENV TORCH_CUDA_ARCH_LIST=7.5 8.0 8.6 8.9 9.0 10.0 12.0",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:22:04.936635597Z",
+          "created_by": "RUN |14 TARGETPLATFORM=linux/amd64 INSTALL_KV_CONNECTORS=true INSTALL_RUBIN_PRERELEASE=false TRITON_INSTALL_FROM_SOURCE_REPO= CUDA_VERSION=13.0.2 VLLM_BUILD_COMMIT=eed1f3d0c6043bd494424a22443ee198dd56f657 VLLM_BUILD_PIPELINE=019d130e-464e-4ff7-b84b-492992c0c06b VLLM_BUILD_URL=https://buildkite.com/vllm/release-v2/builds/6475 VLLM_IMAGE_TAG=vllm/vllm-openai:nightly-eed1f3d0c6043bd494424a22443ee198dd56f657 PIP_INDEX_URL= UV_INDEX_URL= PIP_EXTRA_INDEX_URL= UV_EXTRA_INDEX_URL= torch_cuda_arch_list=7.5 8.0 8.6 8.9 9.0 10.0 12.0 /bin/sh -c CUDA_MAJOR=\"${CUDA_VERSION%%.*}\";     CUDA_VERSION_DASH=$(echo $CUDA_VERSION | cut -d. -f1,2 | tr '.' '-');     CUDA_HOME=/usr/local/cuda;     BUILD_PKGS=\"libcusparse-dev-${CUDA_VERSION_DASH}                 libcublas-dev-${CUDA_VERSION_DASH}                 libcusolver-dev-${CUDA_VERSION_DASH}\";     if [ \"$INSTALL_KV_CONNECTORS\" = \"true\" ]; then         uv pip install --system -r /tmp/kv_connectors.txt --no-build || (             apt-get update -y &&             apt-get install -y --no-install-recommends --allow-change-held-packages ${BUILD_PKGS} &&             uv pip install --system -r /tmp/kv_connectors.txt --no-build-isolation &&             apt-get purge -y ${BUILD_PKGS} &&             rm -rf /var/lib/apt/lists/*         );         MOONCAKE_VERSION=$(python3 -c \"import importlib.metadata as m; print(m.version('mooncake-transfer-engine'))\" 2>/dev/null || true) &&         if [ \"${CUDA_MAJOR}\" = \"13\" ] && [ -n \"${MOONCAKE_VERSION}\" ]; then             uv pip uninstall --system mooncake-transfer-engine 2>/dev/null || true;             uv pip install --system \"mooncake-transfer-engine-cuda13==${MOONCAKE_VERSION}\";         fi;     fi # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:22:05.60525786Z",
+          "created_by": "RUN |14 TARGETPLATFORM=linux/amd64 INSTALL_KV_CONNECTORS=true INSTALL_RUBIN_PRERELEASE=false TRITON_INSTALL_FROM_SOURCE_REPO= CUDA_VERSION=13.0.2 VLLM_BUILD_COMMIT=eed1f3d0c6043bd494424a22443ee198dd56f657 VLLM_BUILD_PIPELINE=019d130e-464e-4ff7-b84b-492992c0c06b VLLM_BUILD_URL=https://buildkite.com/vllm/release-v2/builds/6475 VLLM_IMAGE_TAG=vllm/vllm-openai:nightly-eed1f3d0c6043bd494424a22443ee198dd56f657 PIP_INDEX_URL= UV_INDEX_URL= PIP_EXTRA_INDEX_URL= UV_EXTRA_INDEX_URL= torch_cuda_arch_list=7.5 8.0 8.6 8.9 9.0 10.0 12.0 /bin/sh -c if [ \"${INSTALL_RUBIN_PRERELEASE}\" = \"true\" ]; then         echo \"Installing Rubin prerelease requirements...\"         && uv pip install --system             -r /tmp/vllm-requirements/rubin-prerelease.txt;     fi # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:22:05.649464395Z",
+          "created_by": "COPY /tmp/triton_from_source_workspace/dist/wheel.sha256 /tmp/triton-source-wheel.sha256 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:22:05.68888363Z",
+          "created_by": "COPY tools/install_triton_from_source.sh /tmp/install_triton_from_source.sh # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:22:06.323822817Z",
+          "created_by": "RUN |14 TARGETPLATFORM=linux/amd64 INSTALL_KV_CONNECTORS=true INSTALL_RUBIN_PRERELEASE=false TRITON_INSTALL_FROM_SOURCE_REPO= CUDA_VERSION=13.0.2 VLLM_BUILD_COMMIT=eed1f3d0c6043bd494424a22443ee198dd56f657 VLLM_BUILD_PIPELINE=019d130e-464e-4ff7-b84b-492992c0c06b VLLM_BUILD_URL=https://buildkite.com/vllm/release-v2/builds/6475 VLLM_IMAGE_TAG=vllm/vllm-openai:nightly-eed1f3d0c6043bd494424a22443ee198dd56f657 PIP_INDEX_URL= UV_INDEX_URL= PIP_EXTRA_INDEX_URL= UV_EXTRA_INDEX_URL= torch_cuda_arch_list=7.5 8.0 8.6 8.9 9.0 10.0 12.0 /bin/sh -c if [ -n \"${TRITON_INSTALL_FROM_SOURCE_REPO}\" ]; then         CUDA_MAJOR_MINOR=$(echo \"${CUDA_VERSION}\" | cut -d. -f1,2);         if [ \"${INSTALL_RUBIN_PRERELEASE}\" = \"true\" ]; then             case \"${CUDA_MAJOR_MINOR}\" in                 13.4|13.5)                     TRITON_SYSTEM_PTXAS_PATH=/usr/local/cuda/bin/ptxas                     TRITON_EXPECTED_PTXAS_VERSION=\"${CUDA_MAJOR_MINOR}\"                         bash /tmp/install_triton_from_source.sh                             /tmp/triton-source-dist                             /tmp/triton-source-wheel.sha256                     ;;                 *)                     echo \"Unsupported Rubin CUDA version: ${CUDA_MAJOR_MINOR}\" >&2;                     exit 1                     ;;             esac;         else             bash /tmp/install_triton_from_source.sh                 /tmp/triton-source-dist                 /tmp/triton-source-wheel.sha256;         fi;     fi     && rm -f         /tmp/install_triton_from_source.sh         /tmp/triton-source-wheel.sha256 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2026-09-12T05:22:06.323822817Z",
+          "created_by": "ENV VLLM_USAGE_SOURCE=production-docker-image",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:22:06.323822817Z",
+          "created_by": "ENV VLLM_BUILD_COMMIT=eed1f3d0c6043bd494424a22443ee198dd56f657 VLLM_BUILD_PIPELINE=019d130e-464e-4ff7-b84b-492992c0c06b VLLM_BUILD_URL=https://buildkite.com/vllm/release-v2/builds/6475 VLLM_IMAGE_TAG=vllm/vllm-openai:nightly-eed1f3d0c6043bd494424a22443ee198dd56f657",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:22:06.323822817Z",
+          "created_by": "LABEL org.opencontainers.image.source=https://github.com/vllm-project/vllm org.opencontainers.image.revision=eed1f3d0c6043bd494424a22443ee198dd56f657 org.opencontainers.image.version=vllm/vllm-openai:nightly-eed1f3d0c6043bd494424a22443ee198dd56f657 org.opencontainers.image.url=https://buildkite.com/vllm/release-v2/builds/6475 ai.vllm.build.commit=eed1f3d0c6043bd494424a22443ee198dd56f657 ai.vllm.build.pipeline=019d130e-464e-4ff7-b84b-492992c0c06b ai.vllm.build.url=https://buildkite.com/vllm/release-v2/builds/6475 ai.vllm.image.tag=vllm/vllm-openai:nightly-eed1f3d0c6043bd494424a22443ee198dd56f657",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2026-09-12T05:22:06.323822817Z",
+          "created_by": "ENTRYPOINT [\"vllm\" \"serve\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:073ec47a8c22dcaa4d6e5758799ccefe2f9bde943685830b1bf6fd2395f5eabc",
+          "sha256:18241330a2d180465d0b9868e4978456293d37da715de2f313ba08862da2aab1",
+          "sha256:b5c4de646bbad7dd50f917376023047d99ff9a1e806943dd86799e933b6a6294",
+          "sha256:dab2da33fe40a74d9faf939b829b701aa6cfc6b4502ff68fcf716fd2973697ac",
+          "sha256:b7ec8fd7c485bbedbe64cbc5a7a810ceabb9156e95c83ba60596ddb9b4955d48",
+          "sha256:0de7890d45abe8801a504edf779fab5807d18a433fa92d9951042c83f34cb247",
+          "sha256:9fe6f6034c36d33f336e0960cd4e896af288af745186e8dc98d9e007eef6d7d0",
+          "sha256:a04ad3e2f57cf84612c4b64a58f99f0501644169105cd7155fa31516f01dfb48",
+          "sha256:0a225097eb963bbe299a6c0199989f44fa5d3a1e7bc516dda2e89af2f7785be4",
+          "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+          "sha256:b62c72e0f7a25373842ff2ab4f443a31fcc988ebfc0ae9da2258b3039bec2abd",
+          "sha256:732acdf9344488df2b2521e1dccd7a68b53ac3b2f8c57f489d65ec789f1d2d0a",
+          "sha256:01f9ad26ca90596b091005a408580b4d0d0cca8bd6af81e76ea28c57bb263214",
+          "sha256:8f422c8ad9c73a10ce8448d5a681d10195af145eda183860c6a8251e8cdb27c3",
+          "sha256:064d075545abef85b71475f6ec8d0ea7d2d8cca12c72490023d910dd406c5629",
+          "sha256:064d075545abef85b71475f6ec8d0ea7d2d8cca12c72490023d910dd406c5629",
+          "sha256:b4d98fab534e7a20ad12a8d9a8067ae31a85d0a37fe8fca23fe513374d0c393f",
+          "sha256:2c588f342b5ba1157753c394f1a093a1e04029c2e213b85d48418a67662a0bf9",
+          "sha256:024a6a3ac74b6870b9e40b26d8dfdf80d2b6e7ddf33a2586726a8b3bef02a06b",
+          "sha256:1858191c778790da750bb8344f824cabaa325b2079682f1788006c6e6b41c3c3",
+          "sha256:b58d657555f9eb5bf1348c5ddd3fe999f886b8b198a2e70d693d86042a18043a",
+          "sha256:05107f2abee9d979fb549a982b584f3a3beaca288d7896adea2278ba63d20243",
+          "sha256:7d0007fdbfdb435d3f49768dbe63548c18f19bf7b66adf63ef22afcfc951c055",
+          "sha256:2e7d6c66bd43dc956955c9616720c88f8ef24e5c2bd29ce744cfabd57ab41d18",
+          "sha256:33a0df33e4be719cfd8cea93807b512a14e8a8f234615dc54b18a46287d91d3c",
+          "sha256:69138c63cd366fb4323246ca2e796d8a0380bfcce9ffb840cf51d9fef8280ac4",
+          "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+          "sha256:c8d2d6114265e1152c32394322bf241ec8f3d01343af78c2cad43a9828398609",
+          "sha256:938800a557c98b9eed985781b933b38ed7411ca25a650b7134ae806adb158882",
+          "sha256:1c6eb3337254ac6fa0cd72782e3dc0d56038937d96d9fd2c2ee0b1d368d68e1c",
+          "sha256:4d9423f8b7b4ce069f1afbe05f84f81333e7ba13fd54968c303ccf04a31ab138",
+          "sha256:b7db441a78443eba817547408b02e4ee97ab9fc2acd05ed5b5702da796d6e175",
+          "sha256:a3e6b8f27b7e4eb5f020ff6e110ddcfcfa1c7d2cd7328ff04d3e5a742c06a90f",
+          "sha256:56dc7eaa9dd7929f67657b08c5005d66291deebfe8d0ebc5d4540b81396ea04f",
+          "sha256:30dea3629e06a7cf9670c5e26e82d84036688fc5c0d6cceb829c4fab377744b8",
+          "sha256:8e3cef1f839e970fcc4985d193dc9faac2e2a08c325ede5162a9df360721d4db",
+          "sha256:261e453ceb7cf13b81a6da01d9625520e09d0ab6d7d65e36e899aa151128c927"
+        ]
+      }
+    },
+    "blob_head_checked_at_utc": "2026-10-26T10:12:19.711571+00:00",
+    "amd64_layer_head_checks": [
+      {
+        "digest": "sha256:cf57d2112d8994ff0bb5f867ab8e776272e1d0bcfbb6e6d7f38fd7973b7140cf",
+        "manifest_bytes": 30593586,
+        "status": 200,
+        "content_length": "30593586"
+      },
+      {
+        "digest": "sha256:c567a87f21d2f8e46feb4f6c427eb5559d45a1a222f73d601352403d13af1ada",
+        "manifest_bytes": 4547272,
+        "status": 200,
+        "content_length": "4547272"
+      },
+      {
+        "digest": "sha256:0b3b5bd928240da4156c41fcfb400c1f4f8674acd2faee0413ab5a032dfb5f76",
+        "manifest_bytes": 105166716,
+        "status": 200,
+        "content_length": "105166716"
+      },
+      {
+        "digest": "sha256:70f87b6ed43e1cbbe67ce74c7877fb771bf352b25d602a82ee4f840f2e265155",
+        "manifest_bytes": 182,
+        "status": 200,
+        "content_length": "182"
+      },
+      {
+        "digest": "sha256:526d5438c009ab7178af1646fed10ff6f47a73f5a1ae7b9f49e63e4ade7e3ae6",
+        "manifest_bytes": 6886,
+        "status": 200,
+        "content_length": "6886"
+      },
+      {
+        "digest": "sha256:c31363ee2c857bb65c561c6eb06b0c736354dbc4313b09b23fa7998457655474",
+        "manifest_bytes": 104,
+        "status": 200,
+        "content_length": "104"
+      },
+      {
+        "digest": "sha256:42d52925de68ef6fddbd656bc99875386e75f3a082c6b2ad43784c7b50f41d2a",
+        "manifest_bytes": 229,
+        "status": 200,
+        "content_length": "229"
+      },
+      {
+        "digest": "sha256:662d18f8c4121dce29162eb41874be5411686effd4deb41cc518e68fb6166a48",
+        "manifest_bytes": 233404095,
+        "status": 200,
+        "content_length": "233404095"
+      },
+      {
+        "digest": "sha256:a2cb732dc78ec31fcf5e13b45ea5dda3e6a9c6265a37ebbdbf9ebcb068c92f9c",
+        "manifest_bytes": 1453047548,
+        "status": 200,
+        "content_length": "1453047548"
+      },
+      {
+        "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+        "manifest_bytes": 32,
+        "status": 200,
+        "content_length": "32"
+      },
+      {
+        "digest": "sha256:1dc0b4a5a4ddd3ceb81ea5e264b1146e262613bddbbd4fead307efab41bf2466",
+        "manifest_bytes": 40658449,
+        "status": 200,
+        "content_length": "40658449"
+      },
+      {
+        "digest": "sha256:e7e67ce321ab9b15569635c8fc0cba9a30616ec528970df2eaf96c676f8fd6f2",
+        "manifest_bytes": 149,
+        "status": 200,
+        "content_length": "149"
+      },
+      {
+        "digest": "sha256:aff994f156f5d8dc953857c8b7e1ab6ce6e6173bd70c9437b8771f37f36f16fd",
+        "manifest_bytes": 164,
+        "status": 200,
+        "content_length": "164"
+      },
+      {
+        "digest": "sha256:ec67e1f087d8d3776a884aae1da166ca2f09b904f70425b09b042aea16ab49d2",
+        "manifest_bytes": 3705,
+        "status": 200,
+        "content_length": "3705"
+      },
+      {
+        "digest": "sha256:e1e24a01a49e84c76bc2faf468c3a493040009b7ddf84f751e5f468366d54518",
+        "manifest_bytes": 2080,
+        "status": 200,
+        "content_length": "2080"
+      },
+      {
+        "digest": "sha256:e1e24a01a49e84c76bc2faf468c3a493040009b7ddf84f751e5f468366d54518",
+        "manifest_bytes": 2080,
+        "status": 200,
+        "content_length": "2080"
+      },
+      {
+        "digest": "sha256:3d3e68fea37a177b46b68d54d81adb944d3b2f0ec937eb66ee5ea73b1456c094",
+        "manifest_bytes": 1693,
+        "status": 200,
+        "content_length": "1693"
+      },
+      {
+        "digest": "sha256:b87409e6ba943ab785809ff7994fed60b8b3ef15595fffc9fdbf908c7ee3ca45",
+        "manifest_bytes": 868,
+        "status": 200,
+        "content_length": "868"
+      },
+      {
+        "digest": "sha256:6ead486ebdd1224e8e500831bbe55270d350880049fc3f22d785ed1c2477768e",
+        "manifest_bytes": 5091353443,
+        "status": 200,
+        "content_length": "5091353443"
+      },
+      {
+        "digest": "sha256:8bfdd9a0ceb36bf90c3b31c8f6d4d9ce9c4bb5ff830cb499ca7b659942bcfd5e",
+        "manifest_bytes": 1016501364,
+        "status": 200,
+        "content_length": "1016501364"
+      },
+      {
+        "digest": "sha256:962111dc7ac8a11651f2a7b62563464b23f799d9d8ac489cbcd2adce9155acab",
+        "manifest_bytes": 895,
+        "status": 200,
+        "content_length": "895"
+      },
+      {
+        "digest": "sha256:4c098a18067cab2f6604dc70736d5a5543b81f4025b3d76bb8d0e19740b7980e",
+        "manifest_bytes": 535780,
+        "status": 200,
+        "content_length": "535780"
+      },
+      {
+        "digest": "sha256:eece510a23c03b4e515a7792907708594f09a25e96d3d4db894e9aacc8901201",
+        "manifest_bytes": 61712141,
+        "status": 200,
+        "content_length": "61712141"
+      },
+      {
+        "digest": "sha256:df18baf79077aa6079b5a396a0861ae7d9139f3539a24478c622a6941862f778",
+        "manifest_bytes": 197,
+        "status": 200,
+        "content_length": "197"
+      },
+      {
+        "digest": "sha256:b7f01e71dc642f1af6da63fba370a74c9f680625db3c53c9106a77ac27be46d9",
+        "manifest_bytes": 236,
+        "status": 200,
+        "content_length": "236"
+      },
+      {
+        "digest": "sha256:c1c99ca2abba4bbfb70b90a7fd1143fa7ecfb0d073069f73d17c0c4f8d6b6091",
+        "manifest_bytes": 304811776,
+        "status": 200,
+        "content_length": "304811776"
+      },
+      {
+        "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+        "manifest_bytes": 32,
+        "status": 200,
+        "content_length": "32"
+      },
+      {
+        "digest": "sha256:37799aeadb516b30d664354b7dc0b638f0051ea6d8e832fde13235e3e656c156",
+        "manifest_bytes": 253,
+        "status": 200,
+        "content_length": "253"
+      },
+      {
+        "digest": "sha256:3c0562142d94398ae064c35a8cd663f486c22c54fbb33f4e660931086811e5e1",
+        "manifest_bytes": 14479845,
+        "status": 200,
+        "content_length": "14479845"
+      },
+      {
+        "digest": "sha256:fd62e72b28da68f03480fda2a1dd89ef5149c90d9ee5be2e37fc13d91b2fc83e",
+        "manifest_bytes": 278346,
+        "status": 200,
+        "content_length": "278346"
+      },
+      {
+        "digest": "sha256:6580d1e931aab5276d30f7fda94c5df6e820ba565608c5da6c5524f9babbb26c",
+        "manifest_bytes": 299973,
+        "status": 200,
+        "content_length": "299973"
+      },
+      {
+        "digest": "sha256:bb77a5ed97edc2038460c1fc0c72c9881f1974c51e48d4964afcba4c348b39d0",
+        "manifest_bytes": 9841,
+        "status": 200,
+        "content_length": "9841"
+      },
+      {
+        "digest": "sha256:bdb5f555b8cdcf481c33c523f2f7188edda26b343359dca4f6a03c3d2352119a",
+        "manifest_bytes": 356808649,
+        "status": 200,
+        "content_length": "356808649"
+      },
+      {
+        "digest": "sha256:2cf462d7ca919e0d4989afe05a07772003f13de889ffaff1e85d5ae3b9227cb6",
+        "manifest_bytes": 92,
+        "status": 200,
+        "content_length": "92"
+      },
+      {
+        "digest": "sha256:6c9ab2e0247cc4d297e83559d7dcb12d4ea4341c182aaee3db72c9a8dce9d660",
+        "manifest_bytes": 212,
+        "status": 200,
+        "content_length": "212"
+      },
+      {
+        "digest": "sha256:f1a289f94a169a3fdb139637c3e3910499ad0cedd93dba582d0e96d1af3c5077",
+        "manifest_bytes": 825,
+        "status": 200,
+        "content_length": "825"
+      },
+      {
+        "digest": "sha256:82cca3fe0c0bd8e9ecb5a0003880fe3bcaa2894d9a882517cf7e399bbedb8bb1",
+        "manifest_bytes": 182,
+        "status": 200,
+        "content_length": "182"
+      }
+    ]
+  },
+  "tag_rechecks": {
+    "checked_at_utc": "2026-10-26T10:08:11.675198+00:00",
+    "results": [
+      {
+        "tag": "nightly-eed1f3d0c6043bd494424a22443ee198dd56f657",
+        "status": 404,
+        "body": "{\"errors\":[{\"code\":\"MANIFEST_UNKNOWN\",\"message\":\"manifest unknown\",\"detail\":\"unknown tag=nightly-eed1f3d0c6043bd494424a22443ee198dd56f657\"}]}\n"
+      },
+      {
+        "tag": "nightly-eed1f3d0",
+        "status": 404,
+        "body": "{\"errors\":[{\"code\":\"MANIFEST_UNKNOWN\",\"message\":\"manifest unknown\",\"detail\":\"unknown tag=nightly-eed1f3d0\"}]}\n"
+      },
+      {
+        "tag": "nightly-eed1f3d",
+        "status": 404,
+        "body": "{\"errors\":[{\"code\":\"MANIFEST_UNKNOWN\",\"message\":\"manifest unknown\",\"detail\":\"unknown tag=nightly-eed1f3d\"}]}\n"
+      },
+      {
+        "tag": "cu130-nightly-eed1f3d0c6043bd494424a22443ee198dd56f657",
+        "status": 404,
+        "body": "{\"errors\":[{\"code\":\"MANIFEST_UNKNOWN\",\"message\":\"manifest unknown\",\"detail\":\"unknown tag=cu130-nightly-eed1f3d0c6043bd494424a22443ee198dd56f657\"}]}\n"
+      },
+      {
+        "tag": "cu129-nightly-eed1f3d0c6043bd494424a22443ee198dd56f657",
+        "status": 404,
+        "body": "{\"errors\":[{\"code\":\"MANIFEST_UNKNOWN\",\"message\":\"manifest unknown\",\"detail\":\"unknown tag=cu129-nightly-eed1f3d0c6043bd494424a22443ee198dd56f657\"}]}\n"
+      },
+      {
+        "tag": "nightly-eed1f3d0c6043bd494424a22443ee198dd56f657-x86_64",
+        "status": 404,
+        "body": "{\"errors\":[{\"code\":\"MANIFEST_UNKNOWN\",\"message\":\"manifest unknown\",\"detail\":\"unknown tag=nightly-eed1f3d0c6043bd494424a22443ee198dd56f657-x86_64\"}]}\n"
+      },
+      {
+        "tag": "nightly-20260912",
+        "status": 404,
+        "body": "{\"errors\":[{\"code\":\"MANIFEST_UNKNOWN\",\"message\":\"manifest unknown\",\"detail\":\"unknown tag=nightly-20260912\"}]}\n"
+      }
+    ]
+  },
+  "community_alternatives": {
+    "checked_at_utc": "2026-10-26T10:11:25.178050+00:00",
+    "results": [
+      {
+        "reference": "sha256:2ebb5d599fabc4874d41463a55308e9415751514546c7c1d6ee67ac02a9099d7",
+        "status": 200,
+        "digest": "sha256:2ebb5d599fabc4874d41463a55308e9415751514546c7c1d6ee67ac02a9099d7",
+        "manifest": {
+          "schemaVersion": 2,
+          "mediaType": "application/vnd.docker.distribution.manifest.list.v2+json",
+          "manifests": [
+            {
+              "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+              "size": 8058,
+              "digest": "sha256:34e5a22e36fdc9ee90c524b9f1e987618935815696d79f44a4d9ffc516d15082",
+              "platform": {
+                "architecture": "arm64",
+                "os": "linux"
+              }
+            },
+            {
+              "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+              "size": 8058,
+              "digest": "sha256:5232080cca0e120d74eaf47a179e51b2ea62a79868f1c5b500455248bfed564b",
+              "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "reference": "sha256:5232080cca0e120d74eaf47a179e51b2ea62a79868f1c5b500455248bfed564b",
+        "status": 200,
+        "digest": "sha256:5232080cca0e120d74eaf47a179e51b2ea62a79868f1c5b500455248bfed564b",
+        "manifest": {
+          "schemaVersion": 2,
+          "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+          "config": {
+            "mediaType": "application/vnd.docker.container.image.v1+json",
+            "size": 42483,
+            "digest": "sha256:28df183d4fa2fe47488aa0a427685773f074f5a08cf2d690a12170ccad469e48"
+          },
+          "layers": [
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 30590750,
+              "digest": "sha256:e87500e698966458d9dfc34df84602985c9821f39666619792fe6282aa6df5d4"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 4546956,
+              "digest": "sha256:644e9b20358325501941bab7efe2465969b1101fd546be263fc7c2d12d2d8c6c"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 103517429,
+              "digest": "sha256:02559cd4bc8db240554ff3a4e38df5909d4745846b3e3a4df865d102f0a6d0d9"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 182,
+              "digest": "sha256:2cd52cbb1ebefad9b697ee1c60a7ba7ce8293404a1ad596fd257efdf0e9ec8d6"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 6885,
+              "digest": "sha256:6e8af4fd0a071982e528b634ba99dec2474c21147f99748be708f36e10e3f4c2"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 104,
+              "digest": "sha256:87d9273c74a6580d2124ce44f9e810a4aea09f8a67faff31590882eb58517563"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 231,
+              "digest": "sha256:f87613ee7b93d8be3fb379ef0b75747912f8e6de0fb5efc127331a08677f89d8"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 233404667,
+              "digest": "sha256:87016d8487b46260a9cea4973ecd1bbc0341529d96972e608ebe45d9bacfbbf8"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 1774842611,
+              "digest": "sha256:062736a11f4a645aa87223da2cca5880fafb4c57b8b39f957e6a4debf8e2621f"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 32,
+              "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 40658403,
+              "digest": "sha256:53a63c68b921a06a9efc9adf68aaf14e51b4958b3bb2094bcf6a5b9e6b8bf01c"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 150,
+              "digest": "sha256:d8bf3755350d090bfcf5d9f33805144deceff87c426ba887ff6b6016400874cb"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 164,
+              "digest": "sha256:e8cf495475b5cdd7ecb5a99b8a213356d66301a6cb840f2be0e7be16fdcc54a6"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 3705,
+              "digest": "sha256:36f25fa9fa4b091a4504f8ff15a10c917e033b59844de44e19eb05a6d1271935"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 2079,
+              "digest": "sha256:bf693d6d7dee4afe42f58ade1c48f9f6daf99b719df2597eefa4719c2b4ad281"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 2079,
+              "digest": "sha256:bf693d6d7dee4afe42f58ade1c48f9f6daf99b719df2597eefa4719c2b4ad281"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 1692,
+              "digest": "sha256:88420a827598b6deac0beb2f5023a7f5413b30ba4d10ce723a00607d0efe866f"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 868,
+              "digest": "sha256:5593149792d32371b0b4c3e63fcd804ed366eaafb7ae926189142986fb21803a"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 6376073651,
+              "digest": "sha256:f30c707e4ead79b3fd5907cdf28b37119370973da289cb590582cccc19600a89"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 1019314275,
+              "digest": "sha256:c50ae4e3bb19e25ae51a1947cd9d192439b7eb0d8bc26d0ad221db592b6a9edb"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 894,
+              "digest": "sha256:76d2872595678d15df4638294bfa896eab86296c11f128188b10516938916bad"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 535031,
+              "digest": "sha256:ca5680724f7b41ee57ef87063cc93edbf16aef5b9d41f82ebe528b8cea3dd202"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 61712026,
+              "digest": "sha256:924ca4ffcf5e64623d9ad3d374855a74682fcf3cb9ac34a1c5bc1def37118be8"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 199,
+              "digest": "sha256:01cf96126d633a9b9282b370f2f4b0beb91f06b7aba094fe358c0967a81cb787"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 240,
+              "digest": "sha256:f93f170be1b110fa951bf3c57c1503ac0f99a383a8b2b67cdc03bf8817556702"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 533835862,
+              "digest": "sha256:2bb9eebcc397c267226a7bf82442e6395b52ab9e98b0309ee54e5eab9581f293"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 32,
+              "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 252,
+              "digest": "sha256:fba98f69df10371a63f304d5a164e834addce32b7e460d4e4282ffbdfaedb2d2"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 19078735,
+              "digest": "sha256:e3daa9476b509c76c68558b2ae8ea48859af3188b7913f2bdde890e00331fd8e"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 278349,
+              "digest": "sha256:469f50bcdc6645272f8e602cd922df1ddea6494b321c08454868fe2f541eb11a"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 299973,
+              "digest": "sha256:db8e1e541b8b0c5132049ec970af1a7e1fedd4788c71eaa526c1d2761b50efb8"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 9841,
+              "digest": "sha256:b3d418d8ac72e68b35d1b5883f3ac9e1eafe03fc0a19472bd0bac2355843363f"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 356914675,
+              "digest": "sha256:507201eaa0e7f99b188ff52bbdb042f124f6520c7b800c5c386fd08db6ba7123"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 92,
+              "digest": "sha256:0c76e17a32aa75b367a36d939ba03bab2ab2a6d752b04cbc0ab3b8b0e9c9d983"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 212,
+              "digest": "sha256:14eac2ab4b5f029f22c9af35cd1313a83d8e276b83dbd73aa870012277e52b55"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 825,
+              "digest": "sha256:e892a87cb39d2e781ee0f1c7730318fd6d82be8b2e10d470af17eefbb5646d24"
+            },
+            {
+              "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+              "size": 181,
+              "digest": "sha256:116231f8528e9c27418e32b7b22d338193d5ad7194ea5b1e88cc9ae5b82bcff0"
+            }
+          ]
+        },
+        "config_summary": {
+          "architecture": "amd64",
+          "os": "linux",
+          "created": "2026-09-12T05:26:18.81016638Z"
+        },
+        "labels": {
+          "ai.vllm.build.commit": "eed1f3d0c6043bd494424a22443ee198dd56f657",
+          "ai.vllm.build.pipeline": "019d130e-464e-4ff7-b84b-492992c0c06b",
+          "ai.vllm.build.url": "https://buildkite.com/vllm/release-v2/builds/6475",
+          "ai.vllm.image.tag": "vllm/vllm-openai:cu129-nightly-eed1f3d0c6043bd494424a22443ee198dd56f657",
+          "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+          "org.opencontainers.image.ref.name": "ubuntu",
+          "org.opencontainers.image.revision": "eed1f3d0c6043bd494424a22443ee198dd56f657",
+          "org.opencontainers.image.source": "https://github.com/vllm-project/vllm",
+          "org.opencontainers.image.url": "https://buildkite.com/vllm/release-v2/builds/6475",
+          "org.opencontainers.image.version": "vllm/vllm-openai:cu129-nightly-eed1f3d0c6043bd494424a22443ee198dd56f657"
+        },
+        "cuda_env": [
+          "CUDA_VERSION=12.9.1"
+        ]
+      },
+      {
+        "reference": "sha256:c718e2d7402c7e0c3449e76b6c43a3c595406fbcba8da87de0fa17742b00aad5",
+        "status": 200,
+        "digest": "sha256:c718e2d7402c7e0c3449e76b6c43a3c595406fbcba8da87de0fa17742b00aad5",
+        "manifest": {
+          "schemaVersion": 2,
+          "mediaType": "application/vnd.docker.distribution.manifest.list.v2+json",
+          "manifests": [
+            {
+              "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+              "size": 8680,
+              "digest": "sha256:3d538f222257ccd4a4e6d133b07d2dea42ce6fdc849ea946584b54b4a9a67613",
+              "platform": {
+                "architecture": "arm64",
+                "os": "linux"
+              }
+            },
+            {
+              "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+              "size": 8685,
+              "digest": "sha256:97716c5d4c4a180ddd29f352ee4abbf6d82fb30654245f9e00b5ba1cf349a57e",
+              "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "reference": "nightly-29468dde8b515031dc6d4d9d06bf0a2fa0442098",
+        "status": 404,
+        "body": "{\"errors\":[{\"code\":\"MANIFEST_UNKNOWN\",\"message\":\"manifest unknown\",\"detail\":\"unknown tag=nightly-29468dde8b515031dc6d4d9d06bf0a2fa0442098\"}]}\n"
+      },
+      {
+        "reference": "nightly-18f8f96025b556071eb627076f94df560fbd3a22",
+        "status": 404,
+        "body": "{\"errors\":[{\"code\":\"MANIFEST_UNKNOWN\",\"message\":\"manifest unknown\",\"detail\":\"unknown tag=nightly-18f8f96025b556071eb627076f94df560fbd3a22\"}]}\n"
+      }
+    ]
+  },
+  "prebuilt_anonymous_observations": [
+    {
+      "repository": "qwen-pedia/fnext-vllm",
+      "tag": "r10",
+      "status": 401,
+      "body": "{\"errors\":[{\"code\":\"UNAUTHORIZED\",\"message\":\"authentication required\",\"detail\":[{\"Type\":\"repository\",\"Class\":\"\",\"Name\":\"qwen-pedia/fnext-vllm\",\"Action\":\"pull\"}]}]}\n"
+    },
+    {
+      "repository": "abtraore/fnext-vllm",
+      "tag": "r10",
+      "status": 401,
+      "body": "{\"errors\":[{\"code\":\"UNAUTHORIZED\",\"message\":\"authentication required\",\"detail\":[{\"Type\":\"repository\",\"Class\":\"\",\"Name\":\"abtraore/fnext-vllm\",\"Action\":\"pull\"}]}]}\n"
+    }
+  ],
+  "historical_wheel": [
+    {
+      "url": "https://wheels.vllm.ai/eed1f3d0c6043bd494424a22443ee198dd56f657/vllm-0.1.1.dev50%2Bgeed1f3d0c-cp38-abi3-manylinux_2_28_x86_64.whl",
+      "status": 200,
+      "content_length": "309840435",
+      "etag": "\"b663afec68d26c8156079349e204efba-37\"",
+      "last_modified": "Sat, 12 Sep 2026 05:22:44 GMT"
+    }
+  ],
+  "community_sources": [
+    "https://www.reddit.com/r/BlackwellPerformance/comments/1weapzh/qwen38flashnext_on_a_single_rtx_pro_6000_why/",
+    "https://github.com/WombatSoftware/vllm-qwen3.8-flash-next-rtx-pro-6000-sharp-monitoring",
+    "https://github.com/todiadiyatmo/rtx-3090-vllm-recipe-qwen-flash-next/blob/main/recipe/patch/Dockerfile",
+    "https://github.com/johnmosesventura06/qwen38-hybrid-vmm-lru"
+  ]
+}

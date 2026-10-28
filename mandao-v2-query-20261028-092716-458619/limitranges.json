@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "INVALID_PARAMETER",
+    "message": "无法解析 resourcePlural: limitranges",
+    "status": 400,
+    "timestamp": "2026-10-28T01:27:25.783+00:00",
+    "path": "/apis/k8s/v2/clusters/5090/namespaces/my-space/limitranges",
+    "requestID": "fa9af275809d4e2ab4986bd2ae689224"
+  }
+}

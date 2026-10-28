@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "LOGIN_TIMEOUT",
+    "message": "登录超时",
+    "status": 500,
+    "timestamp": "2026-10-28T01:27:25.249+00:00",
+    "path": "/apis/k8s/v1/clusters/5090/namespaces/my-space/deployments/gemma4",
+    "requestID": "ccf3068cc7be482385c29fc56328a75c"
+  }
+}

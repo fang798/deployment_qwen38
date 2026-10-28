@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "LOGIN_TIMEOUT",
+    "message": "登录超时",
+    "status": 500,
+    "timestamp": "2026-10-28T01:27:26.359+00:00",
+    "path": "/apis/k8s/v1/clusters/5090/persistentvolumes",
+    "requestID": "a8941baf0eeb4cf6972c2d5bebdce292"
+  }
+}

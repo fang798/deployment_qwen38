@@ -1,0 +1,787 @@
+{
+  "verification_date": "2026-10-26",
+  "scope": "HTTP metadata, pinned configs, remote safetensors headers and source review; no target GPU inference performed",
+  "models": [
+    {
+      "repo": "Qwen/Qwen3.8-27B",
+      "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+      "license_metadata": "apache-2.0",
+      "api_url": "https://huggingface.co/api/models/Qwen/Qwen3.8-27B?blobs=true",
+      "weights": [
+        {
+          "name": "model-00001-of-00018.safetensors",
+          "bytes": 3966730552,
+          "lfs_sha256": "ba0ce20aae489ad196733da5064bcdf159a1fe84f53336648196e1ebb7751b1c"
+        },
+        {
+          "name": "model-00002-of-00018.safetensors",
+          "bytes": 3043080328,
+          "lfs_sha256": "06a148c01bfbe3faa14a5f184a7ff29a706f7ae1c8b2705d2058e26d17a001fb"
+        },
+        {
+          "name": "model-00003-of-00018.safetensors",
+          "bytes": 2542796952,
+          "lfs_sha256": "2e1bf62cbcd406eaa64b60d10353e1f0ef4039d0976e56f05cabe953454f9968"
+        },
+        {
+          "name": "model-00004-of-00018.safetensors",
+          "bytes": 3988973152,
+          "lfs_sha256": "511e34063187882659753c4d93f3859f93c019fd438d8813071921c81d9a3f1a"
+        },
+        {
+          "name": "model-00005-of-00018.safetensors",
+          "bytes": 2099339864,
+          "lfs_sha256": "635cb53446dc74f219740fc59e18b774f877b803b9722e289ca62575a6efa701"
+        },
+        {
+          "name": "model-00006-of-00018.safetensors",
+          "bytes": 3979553696,
+          "lfs_sha256": "0bc5214fac607f0e6cc92eec3789d4b8559410ef9fce66621ba8158e8410dae0"
+        },
+        {
+          "name": "model-00007-of-00018.safetensors",
+          "bytes": 2108759344,
+          "lfs_sha256": "80b0c49033e9a0d5762562aa12f4acdb7f54da586f3d0110f28c48d91cf07892"
+        },
+        {
+          "name": "model-00008-of-00018.safetensors",
+          "bytes": 3979553696,
+          "lfs_sha256": "7192c5b66185d3592927daabee1cc19e6f6e0ce75988ee20e824b624765fda79"
+        },
+        {
+          "name": "model-00009-of-00018.safetensors",
+          "bytes": 2108759344,
+          "lfs_sha256": "af3c48cc37af44f3db6ae0579baf019180d48d9c527caa0a1f03ff85813a56d8"
+        },
+        {
+          "name": "model-00010-of-00018.safetensors",
+          "bytes": 3979553696,
+          "lfs_sha256": "163490a76f3bea3a40855b7efc04ce6d27afaf1a34f0bbde495b9491f76457c9"
+        },
+        {
+          "name": "model-00011-of-00018.safetensors",
+          "bytes": 2108759344,
+          "lfs_sha256": "5f3ae1b948aeee39da77aec558e8236cd65fe4d7cb7686a76bb007acc563c6d8"
+        },
+        {
+          "name": "model-00012-of-00018.safetensors",
+          "bytes": 3979553696,
+          "lfs_sha256": "a3de1c7114677a8f5ac5c4892c90e8238ea5c1e2038c80e757dfc87c3902ca55"
+        },
+        {
+          "name": "model-00013-of-00018.safetensors",
+          "bytes": 2108759344,
+          "lfs_sha256": "06ab79a41f74c9c5cb734816feb0c7fc364104b227165ee7391231e1155aa02a"
+        },
+        {
+          "name": "model-00014-of-00018.safetensors",
+          "bytes": 3979553696,
+          "lfs_sha256": "4138ed94603065ba884bbcadedb04d7718bb40117e85e6f5c6fc5b9c05b7a85b"
+        },
+        {
+          "name": "model-00015-of-00018.safetensors",
+          "bytes": 2108759344,
+          "lfs_sha256": "69224e27b9de4e7dbf6fc936c6eaae08447bda3b80a6c31a871ab451173afd22"
+        },
+        {
+          "name": "model-00016-of-00018.safetensors",
+          "bytes": 3979564040,
+          "lfs_sha256": "73cb9a1089fb6155cb648609478d6633be8a5c7d9ca5a05bc8925ce8a553cefe"
+        },
+        {
+          "name": "model-00017-of-00018.safetensors",
+          "bytes": 2108759344,
+          "lfs_sha256": "beb51f01056142ac4984bd800507b0dd0fd18de57f8e9ef6ea41d1a3598983a8"
+        },
+        {
+          "name": "model-00018-of-00018.safetensors",
+          "bytes": 3392197344,
+          "lfs_sha256": "1d3479509e21494658f9b64d317f5ea8e55c4025d28c702d6c4d0b356ce8ea06"
+        }
+      ],
+      "weight_bytes": 55563006776
+    },
+    {
+      "repo": "Qwen/Qwen3.8-27B-FP8",
+      "revision": "017b9c7af6b5689d5dd426a76e0bc077eb5ca20a",
+      "license_metadata": "apache-2.0",
+      "api_url": "https://huggingface.co/api/models/Qwen/Qwen3.8-27B-FP8?blobs=true",
+      "weights": [
+        {
+          "name": "layers-0.safetensors",
+          "bytes": 383865448,
+          "lfs_sha256": "07f700e293baeaf3cd4240c3df1a948c4403f16961ea7979e86c8d6a9f8fd466"
+        },
+        {
+          "name": "layers-1.safetensors",
+          "bytes": 383865448,
+          "lfs_sha256": "35840b5d452c6e438d000e5c1d8d1bc793d257394404689b8f9424749eee8edc"
+        },
+        {
+          "name": "layers-10.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "ab5fbc076ccd6514aba3ab67a0ac1d6701ad395d40cccc0086cf0284ef5d68c9"
+        },
+        {
+          "name": "layers-11.safetensors",
+          "bytes": 372313760,
+          "lfs_sha256": "076b4ba44e9311c8fb8fdc0045f8ce9fd0c75584ade4e95510056b7db4b7ec61"
+        },
+        {
+          "name": "layers-12.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "86d8ec0b8fc8e3ffbdfd667b97050533ddf5a4d273b4fe1190a4335542c52829"
+        },
+        {
+          "name": "layers-13.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "71dd986134f4338a7b8290ed24993ad34a0f77b76a4cc060fe6403e36dcdda5b"
+        },
+        {
+          "name": "layers-14.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "95b285915cba994917b527030874227382ea3421dc7f47d804c0ca5851f039fb"
+        },
+        {
+          "name": "layers-15.safetensors",
+          "bytes": 372313760,
+          "lfs_sha256": "1e87d61e77d2b802f796ab8a049b1119648c9b70d2ba1067f456e5a04449cfc3"
+        },
+        {
+          "name": "layers-16.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "8bcdbf4e2c7a8dda3043c4453a476b30a582d58aabfaa49b2829a8b66a664acb"
+        },
+        {
+          "name": "layers-17.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "571cea44717878cc8cbbfbd544acfe2d155f5b963fbf5dc67b3fa96afe840a1b"
+        },
+        {
+          "name": "layers-18.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "d8700627ca2267fb7beb5d398d6a659a9bfeeb2af76f10e6827b1e4359d59286"
+        },
+        {
+          "name": "layers-19.safetensors",
+          "bytes": 372313760,
+          "lfs_sha256": "2b24cfb752bbed959c614d7fd85412ee27ab2ac1f47deef5d09d0592781400e4"
+        },
+        {
+          "name": "layers-2.safetensors",
+          "bytes": 383865448,
+          "lfs_sha256": "32e63c6455ebfa10b4c36af2878eefcb6f8ccf8e947a62575444dc412c38ac1a"
+        },
+        {
+          "name": "layers-20.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "52fd00c68d4f1df96ba701290c04237257ebb832879bb0b6a629525809d84a64"
+        },
+        {
+          "name": "layers-21.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "e3c29dd949808c13116d853ce4b0f96cb1238fc0cb6999ab76735deef6bda77a"
+        },
+        {
+          "name": "layers-22.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "63446546e3e09c2394fc51855f4e390cb47f896bb8b744f3a210c3159a3ccaf2"
+        },
+        {
+          "name": "layers-23.safetensors",
+          "bytes": 372313760,
+          "lfs_sha256": "4166ed11d0329985f9813ba6a70474ea9f5aeff3d97db3d7b2e81185bd41a996"
+        },
+        {
+          "name": "layers-24.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "720bdcfe12b6627bed29feda9c96256e15c20602704669d05097668a9f03dd45"
+        },
+        {
+          "name": "layers-25.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "1b188e7e4e8ae6f5d753c597f61d86c1593495de4307c273d8dda9946ec48bb4"
+        },
+        {
+          "name": "layers-26.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "ad8c3e3d4b79dfedad674318ee4b150b2cd78b56747c7c8d88a65818109a545d"
+        },
+        {
+          "name": "layers-27.safetensors",
+          "bytes": 372313760,
+          "lfs_sha256": "8d63f461430045960f27a22abf685bfc7445fffbb24764e4a7fa993ba7edac08"
+        },
+        {
+          "name": "layers-28.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "f78557cda66107ce25f8c5ecde2f83da874b3bf7c50381e062e14e7294a5b64d"
+        },
+        {
+          "name": "layers-29.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "09f264d6fdddab0fb5ecce18034a9a01944d15118147c97058fba101a60f8af1"
+        },
+        {
+          "name": "layers-3.safetensors",
+          "bytes": 372313744,
+          "lfs_sha256": "302f9af90bb683a8be9e96d124b470a2eddee6612c95c39a8e93f26eb654563d"
+        },
+        {
+          "name": "layers-30.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "54afe4fc7262ee597d4d9b80d2d6fe8ae501846ff124334b575bed4c6850ed97"
+        },
+        {
+          "name": "layers-31.safetensors",
+          "bytes": 372313760,
+          "lfs_sha256": "2779338203d0715ca323ac0b7fdbb0d450ce2bd1694be395a211a02ade3f34d9"
+        },
+        {
+          "name": "layers-32.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "f4af8893594458b6cdb074ef20f9accb708361fe904012465990d09e74994509"
+        },
+        {
+          "name": "layers-33.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "8f038505b9fc7d0b31ca976c728b56028ec28390a15ca0410f00df18d3abc1a4"
+        },
+        {
+          "name": "layers-34.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "0b28f43cc4d3ae50e37eb3c2ce12a6e181b1c7586a27d5a05c6a3367f08286c9"
+        },
+        {
+          "name": "layers-35.safetensors",
+          "bytes": 372313760,
+          "lfs_sha256": "535b61b9eabbcda5de20e21d2d46fb52528cc9c1f8fac38920382ea2f1030837"
+        },
+        {
+          "name": "layers-36.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "2babd209cafbe12a6e375ff6e7a1029f36ee8226f2a9babf6646630f31dd3fb8"
+        },
+        {
+          "name": "layers-37.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "651cae579808983fefec954db6e2ac8c3f98bfb038ff1d50aef0505ba7394e65"
+        },
+        {
+          "name": "layers-38.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "1c60932dec650cc7679121eaa4d90b8d10a600bf58e23b0784588a339469dd0a"
+        },
+        {
+          "name": "layers-39.safetensors",
+          "bytes": 372313760,
+          "lfs_sha256": "b0c7df4d51b99637ff4ea35eebf7eb134db592eb943e3ccde921729f33949058"
+        },
+        {
+          "name": "layers-4.safetensors",
+          "bytes": 383865448,
+          "lfs_sha256": "b7f367125cdb4b3c3920d1d3ed1ba0d73e464c3e3a92dbd1c195658cb9200afd"
+        },
+        {
+          "name": "layers-40.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "6908f1ab1a3d7828a566099ecf393582bec988d0f82f6141848942d1494b0321"
+        },
+        {
+          "name": "layers-41.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "21ee5d9842074888bd9fdffa875d1f29f8c77f1f5ccbb8f53becb188e1749caa"
+        },
+        {
+          "name": "layers-42.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "565379d4291c06cdf9a4f66d5d21385848a1e5ab17b55fea6c1c8e544f8498f0"
+        },
+        {
+          "name": "layers-43.safetensors",
+          "bytes": 372313760,
+          "lfs_sha256": "4bb8c0a4fadda1f1d66ef6f0dde5a5a94001d04af1842e42009833aff70bf416"
+        },
+        {
+          "name": "layers-44.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "14339304cd520a8673f179cb8352c36fbebe184f15309aee2a79afd2d4476fef"
+        },
+        {
+          "name": "layers-45.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "7a076aca542f937cc87dec92ab49fd782eae234642b40bc706a6108b3dff2c2a"
+        },
+        {
+          "name": "layers-46.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "d82d472cfc4792012934467b90c5e0242df4867a430dd651d13cdee72b7c6645"
+        },
+        {
+          "name": "layers-47.safetensors",
+          "bytes": 372313760,
+          "lfs_sha256": "a83fc757fb11bc50ed3a0c9998b2b2f55c3b6a07598ed458bdbece4285ffaf1f"
+        },
+        {
+          "name": "layers-48.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "f6aa126d006c7d976c20b1330c118b42cf3bbe8a7d216bb14f2240d5c49bc72f"
+        },
+        {
+          "name": "layers-49.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "7ed54c375407c2baec8cfabe8336f8d3782246848298bb232ac2582113676c69"
+        },
+        {
+          "name": "layers-5.safetensors",
+          "bytes": 383865448,
+          "lfs_sha256": "ebbc2c4bd2b98877caafa7073b6ed732a0284eb82269cf6d21710e245af5837a"
+        },
+        {
+          "name": "layers-50.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "73825e1f056c3de53276d3c65743e62b67bf3ca082cf7077ecba1ffef18e9bf1"
+        },
+        {
+          "name": "layers-51.safetensors",
+          "bytes": 372313760,
+          "lfs_sha256": "b6abd8b62b5c4b7beca8cdccd306065be2192ef42491c587ca019d971ed86a1f"
+        },
+        {
+          "name": "layers-52.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "6251d51e6fbec6f463ca875fcbe852e07c5025145affe9af053a04fbdc37288f"
+        },
+        {
+          "name": "layers-53.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "a9f2f43b4978bba2f755c6d2eb39f8561965bc3c1b2fd1073bb363aff11a9b8c"
+        },
+        {
+          "name": "layers-54.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "f0246c9974a4b1207f8f5d05a09c54c50ea61fbfd2dc6480d2b76d3647ece292"
+        },
+        {
+          "name": "layers-55.safetensors",
+          "bytes": 372313760,
+          "lfs_sha256": "649c400495616cf888b7c52e538113610a36265c531d84bff484f8149c157405"
+        },
+        {
+          "name": "layers-56.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "eb0a8139a36138639a37219c158b9415412b68d316235061a72e57da5509c188"
+        },
+        {
+          "name": "layers-57.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "d7616ad33f9256342573ff85b3f2a0e368dd120257c0c7158564587036119d95"
+        },
+        {
+          "name": "layers-58.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "a8dff0e37d0e3903cc29711b935c2865ccd38bd930e7487ae2f4bedbd18ff185"
+        },
+        {
+          "name": "layers-59.safetensors",
+          "bytes": 372313760,
+          "lfs_sha256": "573ed65fd455ec9bd811e95946ea422e08ac36860fdff6968a6d108263a54175"
+        },
+        {
+          "name": "layers-6.safetensors",
+          "bytes": 383865448,
+          "lfs_sha256": "2fea2aaa61d566ba8af27ee89d29d9ee9f1c7f6fbe692772d9ba61fc45109ef6"
+        },
+        {
+          "name": "layers-60.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "9a19c30b190bf552eb424af16103f610bcd944fb276b3275eb7c73849799b7de"
+        },
+        {
+          "name": "layers-61.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "ff744debd4dd0eef450ed24473df57680db404914302e7147a3b72154131f4a0"
+        },
+        {
+          "name": "layers-62.safetensors",
+          "bytes": 383865472,
+          "lfs_sha256": "d9b3b9e472f78bcadf62c446084833bb549faff9e730b21219f1f80d583eff23"
+        },
+        {
+          "name": "layers-63.safetensors",
+          "bytes": 372313760,
+          "lfs_sha256": "59ba4a3af5e6bc2008c2d6b5d9be8eeaf255cddc0aaf8a0d9583b496bb2e3ae0"
+        },
+        {
+          "name": "layers-7.safetensors",
+          "bytes": 372313744,
+          "lfs_sha256": "f2e0137e878016a7afdb2314972e0cbbe2461a67b00eb1d691b4de8ea2665da8"
+        },
+        {
+          "name": "layers-8.safetensors",
+          "bytes": 383865448,
+          "lfs_sha256": "1721b7bcd730891c224b70a7b6147e44a574a2d6c4d924760acf97728249c92c"
+        },
+        {
+          "name": "layers-9.safetensors",
+          "bytes": 383865448,
+          "lfs_sha256": "0a21e07065b5bb04adc339300dea1872cc48ab8eab3b02df092f7cbc67c8d6f6"
+        },
+        {
+          "name": "mtp.safetensors",
+          "bytes": 477202224,
+          "lfs_sha256": "e5e4464a3793cc261de536592830bca40e7f3af159ed038c358f5660917cf43b"
+        },
+        {
+          "name": "outside.safetensors",
+          "bytes": 6007102112,
+          "lfs_sha256": "ddff1d6665a2b39f2612fce0ef955e2436724c565bfbcbc127c7ffd078b698ff"
+        }
+      ],
+      "weight_bytes": 30866866928
+    },
+    {
+      "repo": "nvidia/Qwen3.8-27B-NVFP4",
+      "revision": "482ca0f3832238542f8f5295dde86b5f22711d80",
+      "license_metadata": "apache-2.0",
+      "api_url": "https://huggingface.co/api/models/nvidia/Qwen3.8-27B-NVFP4?blobs=true",
+      "weights": [
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "bytes": 9965652544,
+          "lfs_sha256": "7d0fd155118901373eb0fd13ed3aae68f95be747bc205be72ebc41739c25ee80"
+        },
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "bytes": 9985757064,
+          "lfs_sha256": "98a7e9486baa860c792c9463a770cb9d017696bdd17606300a5b9334149f4c27"
+        },
+        {
+          "name": "model-00003-of-00003.safetensors",
+          "bytes": 1970287672,
+          "lfs_sha256": "0506ad35dc21469708e7813bd76c592cef08bd0317b4a1fe899745ebe2435271"
+        }
+      ],
+      "weight_bytes": 21921697280
+    },
+    {
+      "repo": "unsloth/Qwen3.8-27B-NVFP4",
+      "revision": "f0b7c9e722f5565102fff8481c99e4d86ae099c7",
+      "license_metadata": "apache-2.0",
+      "api_url": "https://huggingface.co/api/models/unsloth/Qwen3.8-27B-NVFP4?blobs=true",
+      "weights": [
+        {
+          "name": "model.safetensors",
+          "bytes": 22568192096,
+          "lfs_sha256": "c473512c70eace07e2256fe9fd76596ac03e3295bee7d54cfb72676416afcc05"
+        },
+        {
+          "name": "model_mtp.safetensors",
+          "bytes": 849400392,
+          "lfs_sha256": "1d8268aa85ace093a561e3e7b63b9d390dac1cd55a90cd55b5ec509c3c9da9fe"
+        }
+      ],
+      "weight_bytes": 23417592488
+    },
+    {
+      "repo": "Inferact/Qwen3.8-27B-NVFP4",
+      "revision": "6128240ebaf4eaa7bad2b3d1c72c37d677c5f462",
+      "license_metadata": "apache-2.0",
+      "api_url": "https://huggingface.co/api/models/Inferact/Qwen3.8-27B-NVFP4?blobs=true",
+      "weights": [
+        {
+          "name": "model-00001-of-00006.safetensors",
+          "bytes": 4013662656,
+          "lfs_sha256": "4b71c5d9d5027c88d1df9f53b93ad77b8d5e428d5d6f75ae42063704d94930b9"
+        },
+        {
+          "name": "model-00002-of-00006.safetensors",
+          "bytes": 4104675536,
+          "lfs_sha256": "d0ceb042ef003ec63e00203823eb70d4815c9fc0430ba04a5442b6b8bde19093"
+        },
+        {
+          "name": "model-00003-of-00006.safetensors",
+          "bytes": 4028901296,
+          "lfs_sha256": "b633a26c1d3b97bf061585363b99d4c01650b4e3f6d0cbb18e7c7e03ca2de1e4"
+        },
+        {
+          "name": "model-00004-of-00006.safetensors",
+          "bytes": 4003421984,
+          "lfs_sha256": "485ea312626e2d1f3a820d9f7545809cef1e2e77414e3977a61d32dacd370bd0"
+        },
+        {
+          "name": "model-00005-of-00006.safetensors",
+          "bytes": 4000515080,
+          "lfs_sha256": "2aa61bab1ed252fe3cdb479286b5b7add7e8ad567501add5f6eeef3987b03d31"
+        },
+        {
+          "name": "model-00006-of-00006.safetensors",
+          "bytes": 5380672368,
+          "lfs_sha256": "8214cd21a46832380c06be552c42d9514c6cc9f27d98e09e2a09e36a8bd6e6ce"
+        },
+        {
+          "name": "nvfp4_experts_mtp.safetensors",
+          "bytes": 849400392,
+          "lfs_sha256": "c2b7cb6987e40f13b1ab6e552958afe47a759f86cac0c3c4a1c29f606dc080ef"
+        }
+      ],
+      "weight_bytes": 26381249312
+    },
+    {
+      "repo": "RedHatAI/Qwen3.8-27B-NVFP4",
+      "revision": "2889ddeeda282f17fc9e159a42125e535159a5e5",
+      "license_metadata": "apache-2.0",
+      "api_url": "https://huggingface.co/api/models/RedHatAI/Qwen3.8-27B-NVFP4?blobs=true",
+      "weights": [
+        {
+          "name": "model-00001-of-00002.safetensors",
+          "bytes": 19977728084,
+          "lfs_sha256": "0d748e71b77483ea270edc7852b0313aab7ed340fcd1d02b274ffd63b7878c01"
+        },
+        {
+          "name": "model-00002-of-00002.safetensors",
+          "bytes": 3861367388,
+          "lfs_sha256": "bd8ad6c896bdefef83d4281a364280ccd0ca63abbcbb161f968348b182bf5f23"
+        },
+        {
+          "name": "model_mtp.safetensors",
+          "bytes": 849400392,
+          "lfs_sha256": "1d8268aa85ace093a561e3e7b63b9d390dac1cd55a90cd55b5ec509c3c9da9fe"
+        }
+      ],
+      "weight_bytes": 24688495864
+    }
+  ],
+  "images": [
+    {
+      "repo": "vllm/vllm-openai",
+      "tag": "v0.32.0",
+      "status": 200,
+      "digest": "sha256:befccf0e7e4089aa23926bb6f887a85c0d46c2a99e6de5c5ffdf5cb7957c5b34",
+      "amd64_manifest": "sha256:6ee133356d49ed24cee03dd0cda3d3980279a11c107ce3e752c89e76540f41c9",
+      "layers_bytes": 9205727079,
+      "created": "2026-10-18T03:08:50.450962942Z",
+      "env": [
+        "NVIDIA_REQUIRE_CUDA=cuda>=13.0 brand=unknown,driver>=535,driver<536 brand=grid,driver>=535,driver<536 brand=tesla,driver>=535,driver<536 brand=nvidia,driver>=535,driver<536 brand=quadro,driver>=535,driver<536 brand=quadrortx,driver>=535,driver<536 brand=nvidiartx,driver>=535,driver<536 brand=vapps,driver>=535,driver<536 brand=vpc,driver>=535,driver<536 brand=vcs,driver>=535,driver<536 brand=vws,driver>=535,driver<536 brand=cloudgaming,driver>=535,driver<536 brand=unknown,driver>=550,driver<551 brand=grid,driver>=550,driver<551 brand=tesla,driver>=550,driver<551 brand=nvidia,driver>=550,driver<551 brand=quadro,driver>=550,driver<551 brand=quadrortx,driver>=550,driver<551 brand=nvidiartx,driver>=550,driver<551 brand=vapps,driver>=550,driver<551 brand=vpc,driver>=550,driver<551 brand=vcs,driver>=550,driver<551 brand=vws,driver>=550,driver<551 brand=cloudgaming,driver>=550,driver<551 brand=unknown,driver>=565,driver<566 brand=grid,driver>=565,driver<566 brand=tesla,driver>=565,driver<566 brand=nvidia,driver>=565,driver<566 brand=quadro,driver>=565,driver<566 brand=quadrortx,driver>=565,driver<566 brand=nvidiartx,driver>=565,driver<566 brand=vapps,driver>=565,driver<566 brand=vpc,driver>=565,driver<566 brand=vcs,driver>=565,driver<566 brand=vws,driver>=565,driver<566 brand=cloudgaming,driver>=565,driver<566 brand=unknown,driver>=570,driver<571 brand=grid,driver>=570,driver<571 brand=tesla,driver>=570,driver<571 brand=nvidia,driver>=570,driver<571 brand=quadro,driver>=570,driver<571 brand=quadrortx,driver>=570,driver<571 brand=nvidiartx,driver>=570,driver<571 brand=vapps,driver>=570,driver<571 brand=vpc,driver>=570,driver<571 brand=vcs,driver>=570,driver<571 brand=vws,driver>=570,driver<571 brand=cloudgaming,driver>=570,driver<571 brand=unknown,driver>=575,driver<576 brand=grid,driver>=575,driver<576 brand=tesla,driver>=575,driver<576 brand=nvidia,driver>=575,driver<576 brand=quadro,driver>=575,driver<576 brand=quadrortx,driver>=575,driver<576 brand=nvidiartx,driver>=575,driver<576 brand=vapps,driver>=575,driver<576 brand=vpc,driver>=575,driver<576 brand=vcs,driver>=575,driver<576 brand=vws,driver>=575,driver<576 brand=cloudgaming,driver>=575,driver<576",
+        "CUDA_VERSION=13.0.2",
+        "VLLM_ENABLE_CUDA_COMPATIBILITY=0",
+        "VLLM_USAGE_SOURCE=production-docker-image",
+        "VLLM_BUILD_COMMIT=5df63a7203cdb9328d824a27b682e77c7b9928be",
+        "VLLM_BUILD_PIPELINE=019d130e-464e-4ff7-b84b-492992c0c06b",
+        "VLLM_BUILD_URL=https://buildkite.com/vllm/release-v2/builds/8622",
+        "VLLM_IMAGE_TAG=vllm/vllm-openai:v5df63a7203cdb9328d824a27b682e77c7b9928be"
+      ],
+      "labels": {
+        "ai.vllm.build.commit": "5df63a7203cdb9328d824a27b682e77c7b9928be",
+        "ai.vllm.build.pipeline": "019d130e-464e-4ff7-b84b-492992c0c06b",
+        "ai.vllm.build.url": "https://buildkite.com/vllm/release-v2/builds/8622",
+        "ai.vllm.image.tag": "vllm/vllm-openai:v5df63a7203cdb9328d824a27b682e77c7b9928be",
+        "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+        "org.opencontainers.image.ref.name": "ubuntu",
+        "org.opencontainers.image.revision": "5df63a7203cdb9328d824a27b682e77c7b9928be",
+        "org.opencontainers.image.source": "https://github.com/vllm-project/vllm",
+        "org.opencontainers.image.url": "https://buildkite.com/vllm/release-v2/builds/8622",
+        "org.opencontainers.image.version": "vllm/vllm-openai:v5df63a7203cdb9328d824a27b682e77c7b9928be"
+      },
+      "entrypoint": [
+        "vllm",
+        "serve"
+      ]
+    },
+    {
+      "repo": "vllm/vllm-openai",
+      "tag": "v0.32.0-cu130",
+      "status": 404,
+      "digest": null
+    },
+    {
+      "repo": "calciumion/new-api",
+      "tag": "v1.0.0-rc.47",
+      "status": 200,
+      "digest": "sha256:938fa2713d4946723c9e9ce3076351c33f7770699fec92d23f3a26fd95791026",
+      "amd64_manifest": "sha256:c99d555a015870f4eaaea475a926b1ea99293e6d0bd7a540248666eb045fd0bd",
+      "layers_bytes": 77799294,
+      "created": "2026-10-25T09:06:45.160215506Z",
+      "env": [],
+      "labels": {
+        "org.opencontainers.image.created": "2026-10-25T09:04:56.747Z",
+        "org.opencontainers.image.description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
+        "org.opencontainers.image.licenses": "AGPL-3.0",
+        "org.opencontainers.image.revision": "e835b1bfc43b565d625537830dbfb19328925134",
+        "org.opencontainers.image.source": "https://github.com/QuantumNous/new-api",
+        "org.opencontainers.image.title": "new-api",
+        "org.opencontainers.image.url": "https://github.com/QuantumNous/new-api",
+        "org.opencontainers.image.version": "v1.0.0-rc.47"
+      },
+      "entrypoint": [
+        "/new-api"
+      ]
+    },
+    {
+      "repo": "library/postgres",
+      "tag": "15-alpine",
+      "status": 200,
+      "digest": "sha256:54e0dd8e8cddcdbb9156c2486eed5a43eccb7214d7c6828097d41ce049fb3984",
+      "amd64_manifest": "sha256:1d4031d6ed0a9b774b365f99a3c16127217eb19f699d8d43fc43b732748601ef",
+      "layers_bytes": 115241178,
+      "created": "2026-10-21T22:57:27.228360399Z",
+      "env": [],
+      "labels": null,
+      "entrypoint": [
+        "docker-entrypoint.sh"
+      ]
+    },
+    {
+      "repo": "library/redis",
+      "tag": "7-alpine",
+      "status": 200,
+      "digest": "sha256:57e4255cc971b1c8d6f8a6ca283ac01bc3ecdd914273ef6bfaede87aaecd6541",
+      "amd64_manifest": "sha256:8be847644e195abc4c10c8d9936cfa45332eccc6b714fa7b186ff43f1f4d5579",
+      "layers_bytes": 16241702,
+      "created": "2026-10-21T21:14:18.14788955Z",
+      "env": [],
+      "labels": null,
+      "entrypoint": [
+        "docker-entrypoint.sh"
+      ]
+    },
+    {
+      "repo": "library/caddy",
+      "tag": "2-alpine",
+      "status": 200,
+      "digest": "sha256:eb4d35b7452d1ab6171fbdbe8d9275b2301dad6dad92115d91e19fb9b24d510f",
+      "amd64_manifest": "sha256:04913b1da43339a40ad1ea87827d70a576ac5aa6cf674c6e24fdca675887533a",
+      "layers_bytes": 24871432,
+      "created": "2026-10-21T21:32:33.967060949Z",
+      "env": [],
+      "labels": {
+        "org.opencontainers.image.description": "a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go",
+        "org.opencontainers.image.documentation": "https://caddyserver.com/docs",
+        "org.opencontainers.image.licenses": "Apache-2.0",
+        "org.opencontainers.image.source": "https://github.com/caddyserver/caddy-docker",
+        "org.opencontainers.image.title": "Caddy",
+        "org.opencontainers.image.url": "https://caddyserver.com",
+        "org.opencontainers.image.vendor": "Light Code Labs",
+        "org.opencontainers.image.version": "v2.11.7"
+      },
+      "entrypoint": null
+    },
+    {
+      "repo": "library/python",
+      "tag": "3.12-slim",
+      "status": 200,
+      "digest": "sha256:a0f57064cbdcd6285fa45f51237ab0b35ea8ebaed06a1f5973e89e19dfb86704",
+      "amd64_manifest": "sha256:e8a38829209aea82774882e5157e1f7c3e8c8393ff53a697b3580896e57f345c",
+      "layers_bytes": 43256521,
+      "created": "2026-10-21T01:10:54.051521261Z",
+      "env": [
+        "PYTHON_VERSION=3.12.15"
+      ],
+      "labels": null,
+      "entrypoint": null
+    }
+  ],
+  "monitoring_images": [
+    {
+      "repo": "prom/prometheus",
+      "tag_at_verification": "latest",
+      "digest": "sha256:fa3302279710be2f21a8301ec17a8b4f2301fd829bd113839b3b6b02b6f191a2",
+      "amd64_manifest": "sha256:d445d1806b38f85b5c394a1b87f94113fde0473b45245922c2e8b1bd41fa68ae",
+      "created": "2026-10-21T14:04:11.99362206Z",
+      "labels": {
+        "io.prometheus.image.variant": "busybox",
+        "maintainer": "The Prometheus Authors <prometheus-developers@googlegroups.com>",
+        "org.opencontainers.image.authors": "The Prometheus Authors",
+        "org.opencontainers.image.description": "The Prometheus monitoring system and time series database",
+        "org.opencontainers.image.documentation": "https://prometheus.io/docs",
+        "org.opencontainers.image.licenses": "Apache License 2.0",
+        "org.opencontainers.image.source": "https://github.com/prometheus/prometheus",
+        "org.opencontainers.image.title": "Prometheus",
+        "org.opencontainers.image.url": "https://github.com/prometheus/prometheus",
+        "org.opencontainers.image.vendor": "Prometheus"
+      },
+      "layers_bytes": 114075465,
+      "status": 200
+    },
+    {
+      "repo": "grafana/grafana",
+      "tag_at_verification": "latest",
+      "digest": "sha256:dbbc38ea21103cefb50396340cd88afec779c7e070b0a7bf5a75b4ce46651d3f",
+      "amd64_manifest": "sha256:7b22f3edf947329d75eba7a62d9f6ea1ac1e786736813ef7a98cfb275a52e49b",
+      "created": "2026-10-12T12:57:33Z",
+      "labels": {
+        "maintainer": "Grafana Labs <hello@grafana.com>",
+        "org.opencontainers.image.source": "https://github.com/grafana/grafana"
+      },
+      "layers_bytes": 482587117,
+      "status": 200
+    },
+    {
+      "repo": "prom/alertmanager",
+      "tag_at_verification": "latest",
+      "digest": "sha256:e9733bafb1bdef9b00e25a21f8f99dc26a22224bf16641ad754d1649f4c3357a",
+      "amd64_manifest": "sha256:84967b9b7ba45e38a9278d3e594305f43d4993c310df3905b51138b816c365f3",
+      "created": "2026-09-17T08:00:13.265962718Z",
+      "labels": {
+        "maintainer": "The Prometheus Authors <prometheus-developers@googlegroups.com>",
+        "org.opencontainers.image.source": "https://github.com/prometheus/alertmanager"
+      },
+      "layers_bytes": 40722956,
+      "status": 200
+    }
+  ],
+  "nvidia_headers": [
+    {
+      "file": "model-00001-of-00003.safetensors",
+      "header_bytes": 126536,
+      "tensor_bytes_by_component": {
+        "other": 6501269008,
+        "embedding": 2542796800,
+        "vision": 921460192
+      },
+      "tensor_bytes_by_dtype": {
+        "F32": 1232,
+        "BF16": 3484997408,
+        "F8_E4M3": 3227320320,
+        "U8": 3253207040
+      },
+      "kv_scale_names": []
+    },
+    {
+      "file": "model-00002-of-00003.safetensors",
+      "header_bytes": 135520,
+      "tensor_bytes_by_component": {
+        "other": 9985621536
+      },
+      "tensor_bytes_by_dtype": {
+        "F32": 1888,
+        "BF16": 31684288,
+        "F8_E4M3": 4918149120,
+        "U8": 5035786240
+      },
+      "kv_scale_names": []
+    },
+    {
+      "file": "model-00003-of-00003.safetensors",
+      "header_bytes": 7128,
+      "tensor_bytes_by_component": {
+        "lm_head": 715161608,
+        "other": 405720144,
+        "mtp": 849398784
+      },
+      "tensor_bytes_by_dtype": {
+        "F32": 88,
+        "BF16": 849451008,
+        "F8_E4M3": 217743360,
+        "U8": 903086080
+      },
+      "kv_scale_names": []
+    }
+  ],
+  "vllm_source_commit": "5df63a7203cdb9328d824a27b682e77c7b9928be",
+  "upstream_features_in_release": {
+    "DFlash2_PR_52816": "b389ac294",
+    "prefix_mamba_index_fix_PR_55601": "3d6853b32"
+  },
+  "recipe_file_source": "https://github.com/vllm-project/vllm/blob/main/recipes/models/Qwen/Qwen3.8-27B.yaml"
+}

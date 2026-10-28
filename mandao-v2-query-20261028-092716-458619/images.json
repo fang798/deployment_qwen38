@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "LOGIN_TIMEOUT",
+    "message": "登录超时",
+    "status": 401,
+    "timestamp": "2026-10-28T01:27:26.935+00:00",
+    "path": "/apis/image/v1/images",
+    "requestID": "bc8e8f1b32a2476485b9c700b371aaf0"
+  }
+}

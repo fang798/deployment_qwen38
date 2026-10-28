@@ -1,0 +1,413 @@
+[
+  {
+    "apiVersion": "v1",
+    "kind": "Node",
+    "metadata": {
+      "annotations": {
+        "csi.volume.kubernetes.io/nodeid": "{\"csi.tigera.io\":\"node01\"}",
+        "kubeadm.alpha.kubernetes.io/cri-socket": "unix:///var/run/containerd/containerd.sock",
+        "node.alpha.kubernetes.io/ttl": "0",
+        "projectcalico.org/IPv4Address": "192.168.79.152/24",
+        "projectcalico.org/IPv4VXLANTunnelAddr": "172.24.252.0",
+        "volumes.kubernetes.io/controller-managed-attach-detach": "true"
+      },
+      "creationTimestamp": "2026-03-27T12:08:08Z",
+      "labels": {
+        "beta.kubernetes.io/arch": "amd64",
+        "beta.kubernetes.io/os": "linux",
+        "kubernetes.io/arch": "amd64",
+        "kubernetes.io/hostname": "node01",
+        "kubernetes.io/os": "linux",
+        "node-role.kubernetes.io/control-plane": "",
+        "node.kubernetes.io/exclude-from-external-load-balancers": ""
+      },
+      "managedFields": [
+        {
+          "apiVersion": "v1",
+          "fieldsType": "FieldsV1",
+          "fieldsV1": {
+            "f:metadata": {
+              "f:annotations": {
+                ".": {},
+                "f:volumes.kubernetes.io/controller-managed-attach-detach": {}
+              },
+              "f:labels": {
+                ".": {},
+                "f:beta.kubernetes.io/arch": {},
+                "f:beta.kubernetes.io/os": {},
+                "f:kubernetes.io/arch": {},
+                "f:kubernetes.io/hostname": {},
+                "f:kubernetes.io/os": {}
+              }
+            }
+          },
+          "manager": "kubelet",
+          "operation": "Update",
+          "time": "2026-03-27T12:08:08Z"
+        },
+        {
+          "apiVersion": "v1",
+          "fieldsType": "FieldsV1",
+          "fieldsV1": {
+            "f:metadata": {
+              "f:annotations": {
+                "f:kubeadm.alpha.kubernetes.io/cri-socket": {}
+              },
+              "f:labels": {
+                "f:node-role.kubernetes.io/control-plane": {},
+                "f:node.kubernetes.io/exclude-from-external-load-balancers": {}
+              }
+            }
+          },
+          "manager": "kubeadm",
+          "operation": "Update",
+          "time": "2026-03-27T12:08:11Z"
+        },
+        {
+          "apiVersion": "v1",
+          "fieldsType": "FieldsV1",
+          "fieldsV1": {
+            "f:metadata": {
+              "f:annotations": {
+                "f:node.alpha.kubernetes.io/ttl": {}
+              }
+            },
+            "f:spec": {
+              "f:podCIDR": {},
+              "f:podCIDRs": {
+                ".": {},
+                "v:\"172.24.252.0/24\"": {}
+              }
+            }
+          },
+          "manager": "kube-controller-manager",
+          "operation": "Update",
+          "time": "2026-04-09T05:57:36Z"
+        },
+        {
+          "apiVersion": "v1",
+          "fieldsType": "FieldsV1",
+          "fieldsV1": {
+            "f:metadata": {
+              "f:annotations": {
+                "f:projectcalico.org/IPv4Address": {},
+                "f:projectcalico.org/IPv4VXLANTunnelAddr": {}
+              }
+            },
+            "f:status": {
+              "f:conditions": {
+                "k:{\"type\":\"NetworkUnavailable\"}": {
+                  ".": {},
+                  "f:lastHeartbeatTime": {},
+                  "f:lastTransitionTime": {},
+                  "f:message": {},
+                  "f:reason": {},
+                  "f:status": {},
+                  "f:type": {}
+                }
+              }
+            }
+          },
+          "manager": "calico-node",
+          "operation": "Update",
+          "time": "2026-10-26T04:37:49Z",
+          "subresource": "status"
+        },
+        {
+          "apiVersion": "v1",
+          "fieldsType": "FieldsV1",
+          "fieldsV1": {
+            "f:metadata": {
+              "f:annotations": {
+                "f:csi.volume.kubernetes.io/nodeid": {}
+              }
+            },
+            "f:status": {
+              "f:allocatable": {
+                "f:ephemeral-storage": {},
+                "f:memory": {},
+                "f:nvidia.com/gpu": {}
+              },
+              "f:capacity": {
+                "f:ephemeral-storage": {},
+                "f:memory": {},
+                "f:nvidia.com/gpu": {}
+              },
+              "f:conditions": {
+                "k:{\"type\":\"DiskPressure\"}": {
+                  "f:lastHeartbeatTime": {},
+                  "f:lastTransitionTime": {},
+                  "f:message": {},
+                  "f:reason": {},
+                  "f:status": {}
+                },
+                "k:{\"type\":\"MemoryPressure\"}": {
+                  "f:lastHeartbeatTime": {}
+                },
+                "k:{\"type\":\"PIDPressure\"}": {
+                  "f:lastHeartbeatTime": {}
+                },
+                "k:{\"type\":\"Ready\"}": {
+                  "f:lastHeartbeatTime": {},
+                  "f:lastTransitionTime": {},
+                  "f:message": {},
+                  "f:reason": {},
+                  "f:status": {}
+                }
+              },
+              "f:images": {},
+              "f:nodeInfo": {
+                "f:bootID": {},
+                "f:containerRuntimeVersion": {},
+                "f:kernelVersion": {}
+              }
+            }
+          },
+          "manager": "kubelet",
+          "operation": "Update",
+          "time": "2026-10-28T01:58:58Z",
+          "subresource": "status"
+        }
+      ],
+      "name": "node01",
+      "resourceVersion": "40696233",
+      "uid": "ba898b54-b554-4618-b27d-daf99000f0da"
+    },
+    "spec": {
+      "podCIDR": "172.24.252.0/24",
+      "podCIDRs": [
+        "172.24.252.0/24"
+      ]
+    },
+    "status": {
+      "addresses": [
+        {
+          "address": "192.168.79.152",
+          "type": "InternalIP"
+        },
+        {
+          "address": "node01",
+          "type": "Hostname"
+        }
+      ],
+      "allocatable": {
+        "cpu": "128",
+        "ephemeral-storage": "379447624691",
+        "hugepages-1Gi": "0",
+        "hugepages-2Mi": "0",
+        "memory": "527722172Ki",
+        "nvidia.com/gpu": "8",
+        "pods": "110"
+      },
+      "capacity": {
+        "cpu": "128",
+        "ephemeral-storage": "411727024Ki",
+        "hugepages-1Gi": "0",
+        "hugepages-2Mi": "0",
+        "memory": "527824572Ki",
+        "nvidia.com/gpu": "8",
+        "pods": "110"
+      },
+      "conditions": [
+        {
+          "lastHeartbeatTime": "2026-10-26T04:37:49Z",
+          "lastTransitionTime": "2026-10-26T04:37:49Z",
+          "message": "Calico is running on this node",
+          "reason": "CalicoIsUp",
+          "status": "False",
+          "type": "NetworkUnavailable"
+        },
+        {
+          "lastHeartbeatTime": "2026-10-28T01:58:58Z",
+          "lastTransitionTime": "2026-03-27T12:08:04Z",
+          "message": "kubelet has sufficient memory available",
+          "reason": "KubeletHasSufficientMemory",
+          "status": "False",
+          "type": "MemoryPressure"
+        },
+        {
+          "lastHeartbeatTime": "2026-10-28T01:58:58Z",
+          "lastTransitionTime": "2026-04-09T06:07:57Z",
+          "message": "kubelet has no disk pressure",
+          "reason": "KubeletHasNoDiskPressure",
+          "status": "False",
+          "type": "DiskPressure"
+        },
+        {
+          "lastHeartbeatTime": "2026-10-28T01:58:58Z",
+          "lastTransitionTime": "2026-03-27T12:08:04Z",
+          "message": "kubelet has sufficient PID available",
+          "reason": "KubeletHasSufficientPID",
+          "status": "False",
+          "type": "PIDPressure"
+        },
+        {
+          "lastHeartbeatTime": "2026-10-28T01:58:58Z",
+          "lastTransitionTime": "2026-03-27T12:09:24Z",
+          "message": "kubelet is posting ready status. AppArmor enabled",
+          "reason": "KubeletReady",
+          "status": "True",
+          "type": "Ready"
+        }
+      ],
+      "daemonEndpoints": {
+        "kubeletEndpoint": {
+          "Port": 10250
+        }
+      },
+      "images": [
+        {
+          "names": [
+            "docker.io/vllm/vllm-openai:gemma4"
+          ],
+          "sizeBytes": 23995618280
+        },
+        {
+          "names": [
+            "nvcr.io/nvidia/k8s-device-plugin@sha256:af31e2b7c7f89834c4e5219860def7ac2e49a207b3d4e8610d5a26772b7738e5",
+            "nvcr.io/nvidia/k8s-device-plugin:v0.17.1"
+          ],
+          "sizeBytes": 198670519
+        },
+        {
+          "names": [
+            "registry.aliyuncs.com/google_containers/etcd@sha256:dd75ec974b0a2a6f6bb47001ba09207976e625db898d1b16735528c009cb171c",
+            "registry.aliyuncs.com/google_containers/etcd:3.5.6-0"
+          ],
+          "sizeBytes": 102542580
+        },
+        {
+          "names": [
+            "dockerhub.mandao.com/calico/cni@sha256:755b53f3897551512366e954d3f62973636dbdb673bff900982de51dcf42d7e2",
+            "dockerhub.mandao.com/calico/cni:v3.26.3"
+          ],
+          "sizeBytes": 93658962
+        },
+        {
+          "names": [
+            "dockerhub.mandao.com/calico/node@sha256:0635b0a5e6a9e52663fdfd1695fa4d5af1e31f76eb426ebab805a611b725ca8e",
+            "dockerhub.mandao.com/calico/node:v3.26.3"
+          ],
+          "sizeBytes": 88273681
+        },
+        {
+          "names": [
+            "dockerhub.mandao.com/chainguard/nfs-subdir-external-provisioner@sha256:c8d72e6a9ea6604d212cebc3a9edae595245853cad7f2911bbd703d715d1d889",
+            "dockerhub.mandao.com/chainguard/nfs-subdir-external-provisioner:latest"
+          ],
+          "sizeBytes": 51374433
+        },
+        {
+          "names": [
+            "dockerhub.mandao.com/calico/apiserver@sha256:1abecd77a7342c9aaeb269c1d370ff4e2b7742961c45a77edc2f6b39d4413113",
+            "dockerhub.mandao.com/calico/apiserver:v3.26.3"
+          ],
+          "sizeBytes": 39602956
+        },
+        {
+          "names": [
+            "registry.aliyuncs.com/google_containers/kube-apiserver@sha256:ad93e567ae76d1c5cc1a6aa755cd9b9c08f9264b9d389195765bd337567aeaa6",
+            "registry.aliyuncs.com/google_containers/kube-apiserver:v1.25.14"
+          ],
+          "sizeBytes": 35071245
+        },
+        {
+          "names": [
+            "dockerhub.mandao.com/calico/kube-controllers@sha256:bb949abbb542f13e9c6d7d891ec092b3b8b29bc2c445e009e9a01abfca4ea0bd",
+            "dockerhub.mandao.com/calico/kube-controllers:v3.26.3"
+          ],
+          "sizeBytes": 32793852
+        },
+        {
+          "names": [
+            "registry.aliyuncs.com/google_containers/kube-controller-manager@sha256:2b0819fdaea0008474c44bfbdf4e0dd42ce517ed7c866c66703e2d0f0cfce261",
+            "registry.aliyuncs.com/google_containers/kube-controller-manager:v1.25.14"
+          ],
+          "sizeBytes": 31933678
+        },
+        {
+          "names": [
+            "dockerhub.mandao.com/calico/typha@sha256:f99081b5ef52638734e4b8f8839154f19c73af4b3a08372bfc6662703a166102",
+            "dockerhub.mandao.com/calico/typha:v3.26.3"
+          ],
+          "sizeBytes": 28222920
+        },
+        {
+          "names": [
+            "quay.io/tigera/operator@sha256:76715143082b0c45aa6fae57b8a2eac0213bef6ffb5c686e456a31b9a35069b3",
+            "quay.io/tigera/operator:v1.30.7"
+          ],
+          "sizeBytes": 20832199
+        },
+        {
+          "names": [
+            "registry.aliyuncs.com/google_containers/kube-proxy@sha256:cae2f5d799cdf254dab6ef7e839be67b745e8bfdc44e720a941932d9ef098ba4",
+            "registry.aliyuncs.com/google_containers/kube-proxy:v1.25.14"
+          ],
+          "sizeBytes": 20489750
+        },
+        {
+          "names": [
+            "registry.aliyuncs.com/google_containers/kube-scheduler@sha256:9d36e92f52f2e0ea36ca1e80b1552c19ab600cb8d89334785c28204c60fd02ec",
+            "registry.aliyuncs.com/google_containers/kube-scheduler:v1.25.14"
+          ],
+          "sizeBytes": 16246846
+        },
+        {
+          "names": [
+            "registry.aliyuncs.com/google_containers/coredns@sha256:8e352a029d304ca7431c6507b56800636c321cb52289686a581ab70aaa8a2e2a",
+            "registry.aliyuncs.com/google_containers/coredns:v1.9.3"
+          ],
+          "sizeBytes": 14837849
+        },
+        {
+          "names": [
+            "dockerhub.mandao.com/calico/node-driver-registrar@sha256:c30fe991ac4937eb53d6edd8721d396d5a977c82680ccf8c1e3864f66402fd6c",
+            "dockerhub.mandao.com/calico/node-driver-registrar:v3.26.3"
+          ],
+          "sizeBytes": 11044351
+        },
+        {
+          "names": [
+            "dockerhub.mandao.com/calico/csi@sha256:db4335cd593c5eb4af6e09bf0076e51c5e1e5c67bfcef675aa50606640c3828f",
+            "dockerhub.mandao.com/calico/csi:v3.26.3"
+          ],
+          "sizeBytes": 8977969
+        },
+        {
+          "names": [
+            "dockerhub.mandao.com/openebs/nfs-server-alpine@sha256:67f5147039bf782d367eb92c20c7424b39a7f02ae8264d2f0936ad70230eadc4",
+            "dockerhub.mandao.com/openebs/nfs-server-alpine:0.11.0"
+          ],
+          "sizeBytes": 8876340
+        },
+        {
+          "names": [
+            "dockerhub.mandao.com/calico/pod2daemon-flexvol@sha256:4da04663175d57cf7738404bc84559e82c5885902ec04fc71992a9b6f2a125f9",
+            "dockerhub.mandao.com/calico/pod2daemon-flexvol:v3.26.3"
+          ],
+          "sizeBytes": 7399880
+        },
+        {
+          "names": [
+            "registry.aliyuncs.com/google_containers/pause@sha256:9001185023633d17a2f98ff69b6ff2615b8ea02a825adffa40422f51dfdcde9d",
+            "registry.aliyuncs.com/google_containers/pause:3.8"
+          ],
+          "sizeBytes": 311286
+        }
+      ],
+      "nodeInfo": {
+        "architecture": "amd64",
+        "bootID": "3d9cedf2-04d6-4e51-b371-4a320f1c1659",
+        "containerRuntimeVersion": "containerd://1.7.20",
+        "kernelVersion": "5.15.0-198-generic",
+        "kubeProxyVersion": "v1.25.14",
+        "kubeletVersion": "v1.25.14",
+        "machineID": "98a32d5f7fc24c53a4af9309351baad7",
+        "operatingSystem": "linux",
+        "osImage": "Ubuntu 22.04.5 LTS",
+        "systemUUID": "3b0118a1-50d3-02dd-ed11-a8b9d43f3da8"
+      }
+    }
+  }
+]

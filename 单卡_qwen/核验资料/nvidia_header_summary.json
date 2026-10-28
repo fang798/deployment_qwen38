@@ -1,0 +1,48 @@
+[
+  {
+    "file": "model-00001-of-00003.safetensors",
+    "header_bytes": 126536,
+    "tensor_bytes_by_component": {
+      "other": 6501269008,
+      "embedding": 2542796800,
+      "vision": 921460192
+    },
+    "tensor_bytes_by_dtype": {
+      "F32": 1232,
+      "BF16": 3484997408,
+      "F8_E4M3": 3227320320,
+      "U8": 3253207040
+    },
+    "kv_scale_names": []
+  },
+  {
+    "file": "model-00002-of-00003.safetensors",
+    "header_bytes": 135520,
+    "tensor_bytes_by_component": {
+      "other": 9985621536
+    },
+    "tensor_bytes_by_dtype": {
+      "F32": 1888,
+      "BF16": 31684288,
+      "F8_E4M3": 4918149120,
+      "U8": 5035786240
+    },
+    "kv_scale_names": []
+  },
+  {
+    "file": "model-00003-of-00003.safetensors",
+    "header_bytes": 7128,
+    "tensor_bytes_by_component": {
+      "lm_head": 715161608,
+      "other": 405720144,
+      "mtp": 849398784
+    },
+    "tensor_bytes_by_dtype": {
+      "F32": 88,
+      "BF16": 849451008,
+      "F8_E4M3": 217743360,
+      "U8": 903086080
+    },
+    "kv_scale_names": []
+  }
+]

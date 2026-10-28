@@ -1,0 +1,192 @@
+name: qwen27-lab
+
+x-logging: &logging
+  driver: json-file
+  options:
+    max-size: "10m"
+    max-file: "5"
+
+services:
+  vllm:
+    image: ${VLLM_IMAGE:?Run init-env.sh first}
+    restart: unless-stopped
+    shm_size: 8gb
+    stop_grace_period: 90s
+    ulimits:
+      memlock: {soft: -1, hard: -1}
+    env_file: [./secrets/vllm.env]
+    environment:
+      HF_HUB_OFFLINE: "1"
+      TRANSFORMERS_OFFLINE: "1"
+    ports: ["127.0.0.1:8001:8000"]
+    volumes:
+      - ./models/nvidia-482ca0f:/model:ro
+      - ./cache/vllm:/root/.cache
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ["${GPU_UUID:?Select one allocated GPU UUID}"]
+              capabilities: [gpu]
+    command:
+      - /model
+      - --served-model-name
+      - qwen38-27b
+      - --host
+      - "0.0.0.0"
+      - --port
+      - "8000"
+      - --tensor-parallel-size
+      - "1"
+      - --language-model-only
+      - --dtype
+      - bfloat16
+      - --kv-cache-dtype
+      - auto
+      - --gpu-memory-utilization
+      - "0.90"
+      - --max-model-len
+      - "16384"
+      - --max-num-seqs
+      - "4"
+      - --max-num-batched-tokens
+      - "2048"
+      - --enable-chunked-prefill
+      - --enable-prefix-caching
+      - --enforce-eager
+      - --default-chat-template-kwargs
+      - '{"enable_thinking":false}'
+      - --reasoning-parser
+      - qwen3
+      - --enable-auto-tool-choice
+      - --tool-call-parser
+      - qwen3_coder
+      - --enable-prompt-tokens-details
+      - --enable-force-include-usage
+      - --enable-request-id-headers
+    healthcheck:
+      test: [CMD, python3, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=5)"]
+      interval: 30s
+      timeout: 10s
+      start_period: 15m
+      retries: 5
+    networks: [backend]
+    logging: *logging
+
+  postgres:
+    image: ${POSTGRES_IMAGE:?}
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: newapi
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?}
+      POSTGRES_DB: newapi
+    volumes: [pg_data:/var/lib/postgresql/data]
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U newapi -d newapi"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks: [backend]
+    logging: *logging
+
+  redis:
+    image: ${REDIS_IMAGE:?}
+    restart: unless-stopped
+    environment:
+      REDIS_PASSWORD: ${REDIS_PASSWORD:?}
+    command: [redis-server, --appendonly, "yes", --requirepass, "${REDIS_PASSWORD:?}"]
+    volumes: [redis_data:/data]
+    healthcheck:
+      test: [CMD-SHELL, 'REDISCLI_AUTH="$${REDIS_PASSWORD}" redis-cli ping | grep -q PONG']
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks: [backend]
+    logging: *logging
+
+  new-api:
+    image: ${NEW_API_IMAGE:?}
+    restart: unless-stopped
+    command: [--log-dir, /app/logs]
+    environment:
+      SQL_DSN: postgresql://newapi:${POSTGRES_PASSWORD:?}@postgres:5432/newapi
+      REDIS_CONN_STRING: redis://:${REDIS_PASSWORD:?}@redis:6379
+      SESSION_SECRET: ${SESSION_SECRET:?}
+      TZ: Asia/Shanghai
+      ERROR_LOG_ENABLED: "true"
+      BATCH_UPDATE_ENABLED: "false"
+      NODE_NAME: qwen27-lab
+    ports: ["127.0.0.1:3000:3000"]
+    volumes: [newapi_data:/data, newapi_logs:/app/logs]
+    depends_on:
+      postgres: {condition: service_healthy}
+      redis: {condition: service_healthy}
+    networks: [backend]
+    logging: *logging
+
+  caddy:
+    profiles: [edge]
+    image: ${CADDY_IMAGE:?}
+    restart: unless-stopped
+    environment:
+      PUBLIC_DOMAIN: ${PUBLIC_DOMAIN:?}
+      ACME_EMAIL: ${ACME_EMAIL:?}
+    ports: ["80:80", "443:443"]
+    volumes: [./Caddyfile:/etc/caddy/Caddyfile:ro, caddy_data:/data, caddy_config:/config]
+    networks: [backend]
+    logging: *logging
+
+  prometheus:
+    profiles: [monitor]
+    image: ${PROMETHEUS_IMAGE:?}
+    restart: unless-stopped
+    ports: ["127.0.0.1:9090:9090"]
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - ./alerts.yml:/etc/prometheus/alerts.yml:ro
+      - prom_data:/prometheus
+    networks: [backend]
+    logging: *logging
+
+  grafana:
+    profiles: [monitor]
+    image: ${GRAFANA_IMAGE:?}
+    restart: unless-stopped
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:?}
+      GF_USERS_ALLOW_SIGN_UP: "false"
+    ports: ["127.0.0.1:3001:3000"]
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./grafana-datasource.yml:/etc/grafana/provisioning/datasources/prometheus.yml:ro
+    networks: [backend]
+    logging: *logging
+
+  tools:
+    profiles: [tools]
+    image: qwen27-tools:20261026
+    build: {context: ., dockerfile: Dockerfile.tools}
+    user: "${LOCAL_UID:-1000}:${LOCAL_GID:-1000}"
+    working_dir: /work
+    environment:
+      HF_HUB_CACHE: /work/cache/hf
+      TEST_BASE_URL: http://vllm:8000/v1
+      TEST_MODEL: qwen38-27b
+      TEST_API_KEY_FILE: /work/secrets/vllm_api_key
+    volumes: [./:/work]
+    networks: [backend]
+
+networks:
+  backend: {}
+
+volumes:
+  pg_data: {}
+  redis_data: {}
+  newapi_data: {}
+  newapi_logs: {}
+  caddy_data: {}
+  caddy_config: {}
+  prom_data: {}
+  grafana_data: {}

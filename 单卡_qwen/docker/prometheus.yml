@@ -1,0 +1,11 @@
+global:
+  scrape_interval: 15s
+rule_files:
+  - /etc/prometheus/alerts.yml
+scrape_configs:
+  - job_name: vllm
+    metrics_path: /metrics
+    static_configs:
+      - targets: [vllm:8000]
+# vLLM API-key auth is not an ACL for every endpoint. The metrics port stays private.
+# Add verified host/GPU/gateway exporters and an actual notification route during P4.

@@ -1,0 +1,9 @@
+groups:
+  - name: qwen27-starter
+    rules:
+      - alert: VllmMetricsUnavailable
+        expr: up{job="vllm"} == 0
+        for: 2m
+        labels: {severity: critical}
+        annotations:
+          summary: "vLLM scrape failed for 2 minutes; check actual generation too"

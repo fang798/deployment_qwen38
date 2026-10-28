@@ -1,0 +1,22 @@
+{
+  "repo": "nvidia/Qwen3.8-27B-NVFP4",
+  "revision": "482ca0f3832238542f8f5295dde86b5f22711d80",
+  "verified_at_utc": "2026-10-26T13:31:51.114237+00:00",
+  "weights": [
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "bytes": 9965652544,
+      "sha256": "7d0fd155118901373eb0fd13ed3aae68f95be747bc205be72ebc41739c25ee80"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "bytes": 9985757064,
+      "sha256": "98a7e9486baa860c792c9463a770cb9d017696bdd17606300a5b9334149f4c27"
+    },
+    {
+      "name": "model-00003-of-00003.safetensors",
+      "bytes": 1970287672,
+      "sha256": "0506ad35dc21469708e7813bd76c592cef08bd0317b4a1fe899745ebe2435271"
+    }
+  ]
+}

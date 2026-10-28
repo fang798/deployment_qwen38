@@ -1,0 +1,852 @@
+{
+  "reviewed_at_utc": "2026-10-26T09:52:12.133198+00:00",
+  "scope": "公开资料、源码、镜像元数据、权重文件头的静态核验；未执行GPU推理、完整模型下载或端到端账单测试",
+  "initial_source_fetches": {
+    "fetched_utc": "2026-10-26T09:44:46.900318+00:00",
+    "sources": [
+      {
+        "name": "qwen_readme",
+        "url": "https://raw.githubusercontent.com/QwenLM/Qwen3.8-Flash-Next/main/README.md",
+        "status": 200,
+        "bytes": 9735,
+        "sha256": "34d45d3486c29dcc23dade1472b5cbf1347ffe0a1adc3334aec83b3dc4e08c50"
+      },
+      {
+        "name": "qwen_license",
+        "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/raw/main/LICENSE",
+        "status": 200,
+        "bytes": 3235,
+        "sha256": "a0dc422560841fd68e06d974907f8b4c709bca44a67daad2b528437bdf676c08"
+      },
+      {
+        "name": "nvidia_readme",
+        "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4/raw/main/README.md",
+        "status": 200,
+        "bytes": 12109,
+        "sha256": "e3ed0cb89950ef0f41e8df344ba1cc15c67e1baf91e1cb5305a7344e58a8d975"
+      },
+      {
+        "name": "nvidia_config",
+        "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4/raw/main/config.json",
+        "status": 200,
+        "bytes": 30820,
+        "sha256": "deef67a61f3311faf051b23dc4192f442c7fee4f9cd2f38cbcbe4da55c763a80"
+      },
+      {
+        "name": "nvidia_index",
+        "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4/raw/main/model.safetensors.index.json",
+        "status": 200,
+        "bytes": 133,
+        "sha256": "8a4323d8ed9a0f783e0a16991e46dff1acb2fa724c6108b306509c738d9dbedc"
+      },
+      {
+        "name": "nvidia_meta",
+        "url": "https://huggingface.co/api/models/nvidia/Qwen3.8-Flash-Next-NVFP4",
+        "status": 200,
+        "bytes": 38341,
+        "sha256": "a502ce78e7de8c9b31aae27ad45a8e01fbbd6bee786b0cff02ff6bf8b629466c"
+      },
+      {
+        "name": "primitive_readme",
+        "url": "https://huggingface.co/primitive-ai/Qwen3.8-Flash-Next-NVFP4/raw/main/README.md",
+        "status": 200,
+        "bytes": 30909,
+        "sha256": "24a13e7426717daed44713c611bf86b4ff8fe9ea7e60ff29b183053e684a8c27"
+      },
+      {
+        "name": "primitive_mixed_readme",
+        "url": "https://huggingface.co/primitive-ai/Qwen3.8-Flash-Next-mixed-NVFP4-FP8/raw/main/README.md",
+        "status": 200,
+        "bytes": 31607,
+        "sha256": "e3aa719006292d13a18bbf57ee2df43266d5ae5c5a226501e43687f60c425bdd"
+      },
+      {
+        "name": "dabs_readme",
+        "url": "https://huggingface.co/dabsLabs/Qwen3.8-Flash-Next-NVFP4/raw/main/README.md",
+        "status": 200,
+        "bytes": 5387,
+        "sha256": "040cf3645ba716e2d94f788b1fcbc9d455affeea1edfe23114054e474a5bc81a"
+      },
+      {
+        "name": "inferact_readme",
+        "url": "https://huggingface.co/Inferact/Qwen3.8-Flash-Next-NVFP4/raw/main/README.md",
+        "status": 200,
+        "bytes": 64834,
+        "sha256": "028b0261071f50248d9cf7a6849b75970fbe879228bd7518728777e66b5dca16"
+      },
+      {
+        "name": "issue54765",
+        "url": "https://api.github.com/repos/vllm-project/vllm/issues/54765",
+        "error": "HTTP Error 403: rate limit exceeded"
+      },
+      {
+        "name": "issue54765_comments",
+        "url": "https://api.github.com/repos/vllm-project/vllm/issues/54765/comments?per_page=100",
+        "error": "HTTP Error 403: rate limit exceeded"
+      },
+      {
+        "name": "issue57125",
+        "url": "https://api.github.com/repos/vllm-project/vllm/issues/57125",
+        "error": "HTTP Error 403: rate limit exceeded"
+      },
+      {
+        "name": "issue57125_comments",
+        "url": "https://api.github.com/repos/vllm-project/vllm/issues/57125/comments?per_page=100",
+        "error": "HTTP Error 403: rate limit exceeded"
+      },
+      {
+        "name": "vllm_recipe",
+        "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/recipes/models/Qwen/Qwen3.8-Flash-Next.yaml",
+        "status": 200,
+        "bytes": 15585,
+        "sha256": "aac9e70c190e4ec945a5d3f7ad2c1f02b63482c238faf3959530dcd9d296b2b0"
+      },
+      {
+        "name": "newapi_readme",
+        "url": "https://raw.githubusercontent.com/QuantumNous/new-api/main/README.md",
+        "status": 200,
+        "bytes": 17709,
+        "sha256": "c6ff9c462c75f7db4d692793055991b4479c2a95148b212358b0fc0822059ce0"
+      },
+      {
+        "name": "newapi_license",
+        "url": "https://raw.githubusercontent.com/QuantumNous/new-api/main/LICENSE",
+        "status": 200,
+        "bytes": 34523,
+        "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+      },
+      {
+        "name": "newapi_compose",
+        "url": "https://raw.githubusercontent.com/QuantumNous/new-api/main/docker-compose.yml",
+        "status": 200,
+        "bytes": 6845,
+        "sha256": "572ab9f27caf4b781f3ed74f264c9f6db76b9491233e2ea9504e1befd9694c97"
+      },
+      {
+        "name": "guidellm_readme",
+        "url": "https://raw.githubusercontent.com/vllm-project/guidellm/main/README.md",
+        "status": 200,
+        "bytes": 15865,
+        "sha256": "25c17f23abb6220f205d0aedb0e3f5b545b7dc9dc3d38afa39250c5118026d6a"
+      }
+    ]
+  },
+  "registry_observations": [
+    {
+      "tag": "nightly",
+      "digest": "sha256:76a9614ed4ed20694914c87e82a0344bd73e1c6e081459a2467175ab903657e4",
+      "platforms": [
+        {
+          "digest": "sha256:dba9776dd623235e921b914e8fdc3451ad4bb118f5096ad8c017adf6e57db03a",
+          "platform": {
+            "architecture": "arm64",
+            "os": "linux"
+          }
+        },
+        {
+          "digest": "sha256:564f00970c392ab923060fe97a71a71e73e1e29aa54368b795f39397679ba923",
+          "platform": {
+            "architecture": "amd64",
+            "os": "linux"
+          }
+        }
+      ],
+      "created": "2026-10-26T05:23:41.052023758Z",
+      "labels": {
+        "ai.vllm.build.commit": "00b6c4c565a8732c131e1f452d4a17803bb0842b",
+        "ai.vllm.build.pipeline": "019d130e-464e-4ff7-b84b-492992c0c06b",
+        "ai.vllm.build.url": "https://buildkite.com/vllm/release-v2/builds/9153",
+        "ai.vllm.image.tag": "vllm/vllm-openai:nightly-00b6c4c565a8732c131e1f452d4a17803bb0842b",
+        "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+        "org.opencontainers.image.ref.name": "ubuntu",
+        "org.opencontainers.image.revision": "00b6c4c565a8732c131e1f452d4a17803bb0842b",
+        "org.opencontainers.image.source": "https://github.com/vllm-project/vllm",
+        "org.opencontainers.image.url": "https://buildkite.com/vllm/release-v2/builds/9153",
+        "org.opencontainers.image.version": "vllm/vllm-openai:nightly-00b6c4c565a8732c131e1f452d4a17803bb0842b"
+      }
+    },
+    {
+      "tag": "nightly-eed1f3d0c6043bd494424a22443ee198dd56f657",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "tag": "qwen38-flash-next",
+      "digest": "sha256:fc120ece0a388cc0aa1caad4a9f1cd92113484ab7ec2fd0efadd62585be05bf8",
+      "platforms": [
+        {
+          "digest": "sha256:3b0e188ffceb3d07e09c3cb5215433a0020eacf02d7f882ed3a8bfd15454477e",
+          "platform": {
+            "architecture": "arm64",
+            "os": "linux"
+          }
+        },
+        {
+          "digest": "sha256:0aea30240f3e3d9ffae8526643950e170eb5fa07fc427016a9dd90892afa2aa3",
+          "platform": {
+            "architecture": "amd64",
+            "os": "linux"
+          }
+        }
+      ],
+      "created": "2026-08-26T09:14:16.546129915Z",
+      "labels": {
+        "ai.vllm.build.commit": "unknown",
+        "ai.vllm.build.pipeline": "local",
+        "ai.vllm.build.url": "",
+        "ai.vllm.image.tag": "local/vllm-openai:dev",
+        "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+        "org.opencontainers.image.ref.name": "ubuntu",
+        "org.opencontainers.image.revision": "unknown",
+        "org.opencontainers.image.source": "https://github.com/vllm-project/vllm",
+        "org.opencontainers.image.url": "",
+        "org.opencontainers.image.version": "local/vllm-openai:dev"
+      }
+    }
+  ],
+  "nvidia_model": {
+    "repository": "nvidia/Qwen3.8-Flash-Next-NVFP4",
+    "revision": "fc694b54fb0174e0913e6adf86691ef85a4ead47",
+    "safetensors_files": 11,
+    "safetensors_bytes": 132680249378,
+    "ple_tensor_bytes": 51200245762,
+    "mtp_tensors_in_combined_shard_bytes": 2516889600,
+    "header_bytes_read": 416368,
+    "http_range_status": 206,
+    "template_sha256": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+    "method": "HF tree元数据汇总11个文件大小；HTTP Range读取model-fp8-mtp-ple.safetensors的8字节头长度及416360字节JSON头，按tensor offsets汇总PLE。未下载tensor数据。"
+  },
+  "qwen_pedia": {
+    "commit": "ed7901322730a79473a1022de3d7a2496b70c63e",
+    "python_overlay_files_ast_parsed": 12,
+    "launch_bash_syntax": "passed",
+    "base_registry_http_status": 404,
+    "docker_manifest_inspect": "exit 1: no such manifest",
+    "historical_source_dockerfile_available": true,
+    "warning": "AST与bash语法通过不代表可构建、可导入或可推理"
+  },
+  "local_source_hashes": {
+    "current_args.txt": "f97af20917395ae717976f6022a78dd996a63c564a31db98567dd979cf0e2aa8",
+    "current_engram.txt": "c9247c5bd690de50bb2001d4b35117a740910d88334791793ddc05cc8cca2ba0",
+    "current_envs.txt": "7f36a90453d826456288307225a6e9d2ea3fd8befd3dc4fbcaf678d6ed7d0e56",
+    "current_ngram.txt": "ef0319508554d26da0870c5b8894d4a96b6d82ad069695558d2497c6814102f8",
+    "current_qsa_cache.txt": "7825f106d981d6cbb72f2edcd2222f3d61c8e7cc434a8fc7a8261a1806915d8f",
+    "current_qwen_model.txt": "e9d9c2a6d4201331f6a16cbf08aa46f513397393f02e12e4c746a345f089a1c0",
+    "current_reasoning.txt": "e112a3c4c23e7a2e82a1964b39102d7209621f81f37810e741cf963cd50e1ec1",
+    "current_speculative.txt": "1f3a4e17b7235917203e4836895d740f73cac093253f35d03fc9f3dbe8eac8a2",
+    "dabs_readme.txt": "040cf3645ba716e2d94f788b1fcbc9d455affeea1edfe23114054e474a5bc81a",
+    "dynamo_agg.txt": "b82205953aa06398d452f03dc58eb3b80eac4e70e47f10f6e44ca08cb47c2756",
+    "dynamo_disagg.txt": "9e3bfb623f441e33cf368c045b23cec2eed565411fcfbdaeab757998cdf198b0",
+    "dynamo_readme.txt": "862ccf4d7ae9ca6c473086b1f66424d1270a45cc3eb642997c25294e32c90a06",
+    "guidellm_readme.txt": "25c17f23abb6220f205d0aedb0e3f5b545b7dc9dc3d38afa39250c5118026d6a",
+    "historical_dockerfile.txt": "c65a47d812b982487c5b67f8b740ca230409bd6babf7c0695bb7cb21ec5b4758",
+    "inferact_readme.txt": "028b0261071f50248d9cf7a6849b75970fbe879228bd7518728777e66b5dca16",
+    "newapi_billing2.txt": "4e7edea4c3de4a3d5ba99cca27f09d1c09dacb0cffa926784b9eaa24972daf9d",
+    "newapi_compose.txt": "572ab9f27caf4b781f3ed74f264c9f6db76b9491233e2ea9504e1befd9694c97",
+    "newapi_license.txt": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+    "newapi_readme.txt": "c6ff9c462c75f7db4d692793055991b4479c2a95148b212358b0fc0822059ce0",
+    "nvidia_chattemplate.txt": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+    "nvidia_config.txt": "deef67a61f3311faf051b23dc4192f442c7fee4f9cd2f38cbcbe4da55c763a80",
+    "nvidia_index.txt": "8a4323d8ed9a0f783e0a16991e46dff1acb2fa724c6108b306509c738d9dbedc",
+    "nvidia_meta.txt": "a502ce78e7de8c9b31aae27ad45a8e01fbbd6bee786b0cff02ff6bf8b629466c",
+    "nvidia_readme.txt": "e3ed0cb89950ef0f41e8df344ba1cc15c67e1baf91e1cb5305a7344e58a8d975",
+    "nvidia_tree.txt": "048bbc06f7a3e175115291277af21cba2ac6f092149e04920748be13951d2d3d",
+    "primitive_mixed_readme.txt": "e3aa719006292d13a18bbf57ee2df43266d5ae5c5a226501e43687f60c425bdd",
+    "primitive_readme.txt": "24a13e7426717daed44713c611bf86b4ff8fe9ea7e60ff29b183053e684a8c27",
+    "qwen_chattemplate.txt": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+    "qwen_license.txt": "a0dc422560841fd68e06d974907f8b4c709bca44a67daad2b528437bdf676c08",
+    "qwen_readme.txt": "34d45d3486c29dcc23dade1472b5cbf1347ffe0a1adc3334aec83b3dc4e08c50",
+    "vllm_cli.txt": "470ff555bdc19f8e17edf4ee7b6ec3f49ff5af0f773e2a7f91bab536e2239109",
+    "vllm_recipe.txt": "aac9e70c190e4ec945a5d3f7ad2c1f02b63482c238faf3959530dcd9d296b2b0"
+  },
+  "runtime_checks": {
+    "nvidia_smi_available": false,
+    "docker_image_pulled": false,
+    "gpu_inference": false,
+    "benchmark": false,
+    "payment_or_billing": false
+  },
+  "supplemental_review": {
+    "reviewed_at_utc": "2026-10-26T10:06:11.717222+00:00",
+    "input_document": "/home/user/xu_fang/work/10_21调研/qwen3_8_flash_gemini补充对pedia的建议.md",
+    "source_observations": [
+      {
+        "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local/raw/main/README.md",
+        "bytes": 29021,
+        "sha256": "b0ad2a8a314ca96618e21e40d50c0af6e181e6060f9cdd1996c7074d19284c1a"
+      },
+      {
+        "url": "https://huggingface.co/api/models/nvidia/Qwen3.8-Flash-Next-FP4-Local",
+        "bytes": 21985,
+        "sha256": "701f90ed6e528184148e0459aa425247e5ca4c63a4fc55c86e931ca2aa9bd256"
+      },
+      {
+        "url": "https://huggingface.co/api/models/nvidia/Qwen3.8-Flash-Next-FP4-Local/tree/main?recursive=true&expand=false",
+        "bytes": 8617,
+        "sha256": "14afd2676a3f219350f06c61b07d0d189be2ab68cb72fbe5397b8b55df598e34"
+      },
+      {
+        "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local/raw/main/config.json",
+        "bytes": 75217,
+        "sha256": "b50dbc52a0c83b0cd2a44a372c1fb6b5e0e6827d22f2611c97d4d030f92f6b28"
+      },
+      {
+        "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local/resolve/b9ce18a6887e18c089fdea8509a33e63429a3300/model.safetensors.index.json",
+        "bytes": 47280974,
+        "sha256": "5fa166bbb1cf25adda455117563efa72a2072272001f459eedece131ffc913e1"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vllm-project/vllm/00b6c4c565a8732c131e1f452d4a17803bb0842b/vllm/model_executor/layers/mamba/gdn/qwen_gdn_linear_attn.py",
+        "bytes": 88466,
+        "sha256": "944a3a893d44fa94482eef2d52a26b544eb01ac5b0a99ed4b72fb3c3853a14f7"
+      }
+    ],
+    "pedia_findings": {
+      "FN_EXT_DIR": "Absent in full tracked-source search; Dockerfile COPY is actual deployment method.",
+      "aikitoria": "No name, pinned driver or installation procedure in inspected repository; cannot attribute this requirement to r10.",
+      "gdn_sm12x": "PR #55715 merged 2026-09-08; both r10 baseline and inspected official source support conditions SM12x, head_k_dim=128, CUDA major>=13.",
+      "qsa_fp8": "PR #55557 merged 2026-09-16; present in inspected official source.",
+      "54765": "Issue, not PR; comments distinguish loading success from serving success.",
+      "54743": "Open PR about KV cache offload config scope, not PLE table loader.",
+      "56177": "Open PR about GPU expert pool for NVFP4 Marlin, not PLE table mmap.",
+      "license": "No unified LICENSE found; some source files retain upstream Apache SPDX. Do not infer blanket internal-commercial permission.",
+      "no_performance_winner": "No same-hardware, same-model-revision, same-workload comparison against current fixed official runtime was executed."
+    },
+    "fp4local": {
+      "revision": "b9ce18a6887e18c089fdea8509a33e63429a3300",
+      "safetensors_file_count": 21,
+      "file_bytes": 102192011716,
+      "index_tensor_total_bytes": 102138950916,
+      "ple_header_files": 7,
+      "ple_tensor_count": 257,
+      "ple_tensor_bytes": 28800138244,
+      "non_ple_tensor_bytes": 73338812672,
+      "ple_precision": "NVFP4: U8 packed values, F8_E4M3 block scales, F32 global scale; not FP8 table weights.",
+      "caveat": "Community runtime required by model card for compressed scales; no 4x5090 TP4 test conducted; hardware evidence in card is single RTX PRO 6000 and DGX Spark.",
+      "registry_observations": [
+        {
+          "repository": "eugr/spark-vllm-b12x",
+          "tag": "latest",
+          "digest": "sha256:03a956544e9f9b4b7ba91690469fbe7848bdbef29a7d2e0f5788368467bb3595",
+          "manifest": {
+            "schemaVersion": 2,
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "config": {
+              "mediaType": "application/vnd.docker.container.image.v1+json",
+              "size": 33399,
+              "digest": "sha256:a7f76ae9f18c7701c9cde5f72c606393d9a21ca94dd8e53b27589935f64fcbe2"
+            },
+            "layers": [
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 28861712,
+                "digest": "sha256:b8a35db46e38ce87d4e743e1265ff436ed36e01d23246b24a1cbbeaae18ec432"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 4532957,
+                "digest": "sha256:7be1e3dd81adb79f8fbffa3a472a80e4a024b7dedb4028788e15e05c4a7a3946"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 99733679,
+                "digest": "sha256:653ca2e1b0e9f4dda5c4101ba798059d34362dfdd0379f1fb2b80f1e48a703df"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 186,
+                "digest": "sha256:66c8341e87a6fcc90cd8b78f232a7707a96e4fbeaff457268bc6d4fdd8bf509a"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 6886,
+                "digest": "sha256:526d5438c009ab7178af1646fed10ff6f47a73f5a1ae7b9f49e63e4ade7e3ae6"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 1634605317,
+                "digest": "sha256:a2e7e61257af3470551e443b256164daebe5af2126637f81b266d13862e314a1"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 59611,
+                "digest": "sha256:1fb3a2ad22928fee0bd0e9cd30f7d15c201feb5b28084093c6f6f1c3a17d82fb"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 1685,
+                "digest": "sha256:ae673f68565b3ac359d9c3bd7feb9c47f240b8a319fa1bc65c5844f0278c766a"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 1523,
+                "digest": "sha256:879ba6afff8c297599caee631d3225f534d42f0ce1cef8da885687f7dd8cc671"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 2159268284,
+                "digest": "sha256:c9a23150e219947a682ecb2c0a8688c32b73aff9bdbdf7dbbfd69fd8f428bfd3"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 89820,
+                "digest": "sha256:704ea4a1a75a54e1fc94227ad505941cc1132ec2a16ed2fedd366dd7c9493549"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 803805957,
+                "digest": "sha256:77ca2480e1df3c35529172ca6a022d083b7e1250998c408c27147d5c2b2c30e2"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 120,
+                "digest": "sha256:91af25cd886add070210b9bff1a4a04a02cb5ef019243719d0477b782f59bb3f"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 2506051,
+                "digest": "sha256:a637137940887ae76bf7149d7ca38175b24c9fdb418b4f9181813fe42eaf897c"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 3104373905,
+                "digest": "sha256:5b7cd378d3c2c9f8f935e036dbed4855598c7276a10bf4e5a97695e367e4a8f1"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 1546097847,
+                "digest": "sha256:ecd0389fcb9769738128ee4a4926bd34b8eafc070ca49f116978d8be01b8b3a4"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 99,
+                "digest": "sha256:0f9f458103e96b463e2ee027365a7f28856a328ec85c3ca70c45809e677f2a0a"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 311187485,
+                "digest": "sha256:41b6f149aeeeb520a8936def59ca7ee5259856b86347504006f60216e08bec9a"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 1654,
+                "digest": "sha256:231b5a4010dd9bb6605c408432a3765d2ba73ec82533ca73d5a91e77c80952b9"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 32,
+                "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 1819,
+                "digest": "sha256:5a0330576e6dfcde56f4e94df845e9c974ede3965d0bc4f11a26d006f34556b6"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 13036,
+                "digest": "sha256:918fd5756c334bd95de8d1daa604521d09b42a099c7ae16c9142a4e9a83cc931"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 1371,
+                "digest": "sha256:98479fadedc4a89a50792038c458af0847288ba3c042e4f2a27650666e82fd33"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 7207,
+                "digest": "sha256:2b92aa60317d7219b9b9d610edeae38b506233d42423d7b0df22f9fa1eea74cf"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 303,
+                "digest": "sha256:f24d23026d6f84094885d1bda984df0d142a8b6db3340aad66c0b928f062654a"
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "size": 551,
+                "digest": "sha256:cb32d4dd17f70996a3f4a05640cafc516623f38e9e3f5cf473765ebe9aec8c2c"
+              }
+            ]
+          }
+        },
+        {
+          "repository": "local-inference-lab/vllm",
+          "tag": "release-10152026",
+          "digest": "sha256:745feb916ee816f5409fd58386114be4f22fbede7f9c0e0a7b8c4fe8dac0fb29",
+          "manifest": {
+            "schemaVersion": 2,
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "config": {
+              "mediaType": "application/vnd.oci.image.config.v1+json",
+              "digest": "sha256:1c5d63ecb613eb418c99c9da43b39b87cd810549f0219de9cb3f6e91166eb29f",
+              "size": 76686
+            },
+            "layers": [
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:0926a8eb0e608a5c6888d1cd5594184bdf3ed3aa311dba5b42a547caefdc6f2e",
+                "size": 29752807
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+                "size": 32
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:3b78127a25eebba424a71ab06f51627a3580c9c63f1bb354a37d81b3a15f3165",
+                "size": 1008076
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+                "size": 32
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:3646b28fcf7037dcbf3d2d7971ffca223591cfc58ed23e28e455050cfb5a1ef8",
+                "size": 3603328
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:d3c3553600b4199a4b3f50498377bd66da6df723ca3ab882abd55cc92e9bd931",
+                "size": 206996508
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:59dbf4ce63d89befa81422bb0f4c5215582351b6a77924dc502e523d9149db54",
+                "size": 176488718
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:f791b510f606ee2cdb64934101002ffe7250c6ed24969f97b9f0680a0f85fde9",
+                "size": 15583
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:40996fad99e9cb9299ec5f68fdebd0d907e2afca712731b6b968785cfeacb802",
+                "size": 11532
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:9f0500b9e011f0280338dd71e52647da536919ae357fc99e1f72d7cd5ca6719e",
+                "size": 180
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:b790df883b908fb5f361e48d8562804c5e2af875415e67bc44ec25edb403c599",
+                "size": 123166107
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:153b50e3203f6aa06a64ccd2105ce59fa44b0da2a8c68bb395a088af4f2f20bb",
+                "size": 1505978
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:3d5c521cbd3193cc3d05e592543836e2ae2b54d13082ea356a8bdd3fa84d3a10",
+                "size": 26039970
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:4ccd6d480ecb790677ad91e1433919a7bba655e68ceabcb94db2822cc1cb3ad2",
+                "size": 6211
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:1eca1ffdf39d2197db11c141705026cac45ec09d0829b301829eb0be01936448",
+                "size": 408
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+                "size": 32
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+                "size": 32
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:4cea870157a5ac15cf82b0714edca550307beac9c1d4d5c2e3230d41fa748e65",
+                "size": 114798562
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:7ca10be6106d436dd5b9358dcfbf3a57f665954602879bb94ae51d43a99fab9b",
+                "size": 282358431
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:4a87a7f8feac7958183dbd081025151a009992f6d296ece04f4d57fbdc33e68f",
+                "size": 1829888794
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+                "size": 32
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+                "size": 32
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+                "size": 32
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:d613165a8376a189d46b23dc3b7051df27ff9b8dde815768d3e00997f58634ca",
+                "size": 81739394
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:a0a59e0cc6f4680dec4c195866a3004f3783a82251be4c765bd24e79016552b8",
+                "size": 2870711749
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+                "size": 32
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+                "size": 32
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:7ab5f3c4213cd1073c83f27864ef35df86e8b8bd039cd7b0eceb5a01307c9c52",
+                "size": 22164245
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:678a16ecd0aeaa49237f3ca76cba2558855d3275dd71d2395ae317c7e2efc2d9",
+                "size": 503
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:ee970c4fd40e5cef7e485fa6caa3d4222c17b0091563cd619ded7c24c1a25e47",
+                "size": 610807708
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+                "size": 32
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+                "size": 32
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:6ee670aa9995ad629a293e5b19790e05cb1bafb81e05775a117d417c8691060d",
+                "size": 274616834
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:3f3fb788f1b96595616f18a6bb2c5ea0e8658c97af58094f62081870965f3d69",
+                "size": 354
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:1e2eb6d5012d7d11f6879be97ad0edf3ed89906729c2f6bf78ab978d0db14653",
+                "size": 33640921
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+                "size": 32
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:f78cfcad5f7252fa931ba1220be4dfee4c7fb3d30081834ef3d9126472962b5e",
+                "size": 116
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:781ae8bc11d99b04482244a68b706760320b44a7c4808eabc104497d7d8eec52",
+                "size": 821062169
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:33c8221797ea855386d81c80cdd66ee4127b7dd2a6d26124956bba5e15eacf8f",
+                "size": 628902795
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:899f3e83aaf1d82f823022b3638e7a49d527283ddaea3dcc7d7acbff51f39419",
+                "size": 87555804
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+                "size": 32
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:ab56f3e00e1e90572e6f59af95ffeaf99540a7cbc39cbc36c4b4bc9e8e83197c",
+                "size": 5899618
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:8d21c4c8e6802333b89493dd9ab3e52c713a0439cb65eb1c3f3b0a153d12e269",
+                "size": 711391237
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:9fb4974f74fd1ccf0faa164847ab53399192740b1ee83eaeaeaa7efafe995b80",
+                "size": 2771882
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:c32d90c9e15cf47250688acc104c8244f8b3b4fbb23064312b9ade8b73347eea",
+                "size": 344544750
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:81625f9a0ba961147d8827bb303063ca30636a46a488e6fca263b1aa08b65ecc",
+                "size": 258270772
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:0cfca1a4fa38c2ce767331c0c9d955da2d61685d8c9fe566d2be1a948e1f812d",
+                "size": 25114769
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:81210fbad5033d0c833e818e976a07600c345dec38ac38decabf38939b9f4294",
+                "size": 1114
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+                "size": 32
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:6d17e6d9d843f5263fb8197be9d729dc8f6d75407cc808afd30ac219d8f2795d",
+                "size": 215820977
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:c5948f41262d313a2948f487670d390ec39601a3b7884d7eca6ed5ec65de7c1e",
+                "size": 82595
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+                "size": 32
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:9f953a45f6aa808e91105ba81cb9933868eafe539f45c708eae754871e15bcb9",
+                "size": 1120
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:08325d225f45e3dcdfa9d08ccc3aebcd1e96dcf13b291f8b8ed9861bea21b9f4",
+                "size": 1114
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:e5a0cae6bdab126a45335a184356e223799add09b1793e2a92b0123cc8a417c1",
+                "size": 30128381
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:7aabc02ca770bba4520aa47155f9367b522de73a1ccb457e3f20fff1ebd8b229",
+                "size": 30130166
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:21b4814603a931654a815dd483670875eb4313548aaf364cf1654e51b89f8606",
+                "size": 1569797
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:6326f08769939360fcf22fbdaffef9c22d1ad1fd5d109f36865cb74b72960b0d",
+                "size": 28223253
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:78db6d3e1c7b725fdf522d667413f634824be9f8a5fea435de05f6c4690d84bc",
+                "size": 389942678
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:74586da01b847d151db647b7c59fbabcc0bad3324df4a94aa8416384e2b3dd0b",
+                "size": 672483825
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:919429f8f103e868c5eda5bb98fce3bfb5b48e19e29234543e7ad6407121db2d",
+                "size": 12506385
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:303b337ac835920d9bfcedf93f15cc47ccfe3a1655dcccf27c43de2d88dbfe80",
+                "size": 382668842
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+                "size": 32
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:fb2c6da158871f4272bc7c7b10569bddb7df3eb7b8322638b968b3b8275ef44c",
+                "size": 18724
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:cc7d22b435f5184252bf88178fdc5c48931c12ba45b8a9ffd0d4878b9fee9177",
+                "size": 372
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:a2f3b28823205c553a763e6ee506aaec6a8b66d53245708a4d29f7d0227eadff",
+                "size": 497
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+                "size": 32
+              },
+              {
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:c51dce3e98e006880f111c371a451afa145b40e0fb2d4d41e8e92d46cbc67e8b",
+                "size": 1535710587
+              }
+            ]
+          }
+        }
+      ],
+      "image_configs": [
+        {
+          "architecture": "arm64",
+          "os": "linux",
+          "created": "2026-10-15T09:48:34.806897322-07:00"
+        },
+        {
+          "architecture": "amd64",
+          "os": "linux",
+          "created": "2026-08-21T06:45:47.835473925Z"
+        }
+      ]
+    }
+  },
+  "last_updated_at_utc": "2026-10-26T10:15:29.459372+00:00",
+  "pedia_image_recovery_followup": {
+    "result": "Original tag 404, original CUDA13 index digest recovered and Registry + Docker CLI manifest succeeded. All 37 amd64 layer HEAD requests 200, lengths match. No full pull or GPU test.",
+    "record": "pedia_镜像恢复复核_2026-10-26.json",
+    "index_digest": "sha256:d0742e7e31b16c85c9e215960604452f5f172a522d35c94ca42b7030cb0afa36",
+    "amd64_manifest_digest": "sha256:b3862887f9cf239705c7908d9fe5367c0a42f5083b6d0a10ac15d9cea7438bec",
+    "commit": "eed1f3d0c6043bd494424a22443ee198dd56f657",
+    "cuda": "13.0.2"
+  }
+}

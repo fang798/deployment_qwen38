@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "message": "ok",
+  "code": null,
+  "data": {
+    "page": 1,
+    "pageTotal": 1,
+    "recordTotal": 0,
+    "records": null
+  }
+}

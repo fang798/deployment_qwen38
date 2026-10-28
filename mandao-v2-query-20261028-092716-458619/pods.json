@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "LOGIN_TIMEOUT",
+    "message": "登录超时",
+    "status": 500,
+    "timestamp": "2026-10-28T01:27:25.422+00:00",
+    "path": "/apis/k8s/v1/clusters/5090/namespaces/my-space/pods",
+    "requestID": "563860f3ad2f40f1a129c722334639ed"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "LOGIN_TIMEOUT",
+    "message": "登录超时",
+    "status": 401,
+    "timestamp": "2026-10-28T01:27:26.640+00:00",
+    "path": "/apis/repository/v1/repositories",
+    "requestID": "182c7bdbb1bb483c87010777da10b6e7"
+  }
+}

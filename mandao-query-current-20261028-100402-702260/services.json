@@ -1,0 +1,274 @@
+[
+  {
+    "apiVersion": "v1",
+    "kind": "Service",
+    "metadata": {
+      "creationTimestamp": "2026-04-09T06:40:47Z",
+      "managedFields": [
+        {
+          "apiVersion": "v1",
+          "fieldsType": "FieldsV1",
+          "fieldsV1": {
+            "f:spec": {
+              "f:externalTrafficPolicy": {},
+              "f:internalTrafficPolicy": {},
+              "f:ports": {
+                ".": {},
+                "k:{\"port\":32003,\"protocol\":\"TCP\"}": {
+                  ".": {},
+                  "f:name": {},
+                  "f:nodePort": {},
+                  "f:port": {},
+                  "f:protocol": {},
+                  "f:targetPort": {}
+                }
+              },
+              "f:selector": {},
+              "f:sessionAffinity": {},
+              "f:type": {}
+            }
+          },
+          "manager": "okhttp",
+          "operation": "Update",
+          "time": "2026-04-09T06:40:47Z"
+        }
+      ],
+      "name": "gemma4-svc",
+      "namespace": "my-space",
+      "resourceVersion": "2399054",
+      "uid": "48994f1b-f7f5-4cdf-8515-2789bf3bf21a"
+    },
+    "spec": {
+      "clusterIP": "10.253.3.157",
+      "clusterIPs": [
+        "10.253.3.157"
+      ],
+      "externalTrafficPolicy": "Cluster",
+      "ipFamilies": [
+        "IPv4"
+      ],
+      "ipFamilyPolicy": "SingleStack",
+      "ports": [
+        {
+          "name": "port-0",
+          "nodePort": 32003,
+          "port": 32003,
+          "protocol": "TCP",
+          "targetPort": 8000
+        }
+      ],
+      "selector": {
+        "app": "gemma4"
+      },
+      "sessionAffinity": "None",
+      "type": "NodePort",
+      "internalTrafficPolicy": "Cluster"
+    },
+    "status": {
+      "loadBalancer": {}
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "Service",
+    "metadata": {
+      "creationTimestamp": "2026-03-31T05:44:09Z",
+      "managedFields": [
+        {
+          "apiVersion": "v1",
+          "fieldsType": "FieldsV1",
+          "fieldsV1": {
+            "f:spec": {
+              "f:externalTrafficPolicy": {},
+              "f:internalTrafficPolicy": {},
+              "f:ports": {
+                ".": {},
+                "k:{\"port\":32002,\"protocol\":\"TCP\"}": {
+                  ".": {},
+                  "f:name": {},
+                  "f:nodePort": {},
+                  "f:port": {},
+                  "f:protocol": {},
+                  "f:targetPort": {}
+                }
+              },
+              "f:selector": {},
+              "f:sessionAffinity": {},
+              "f:type": {}
+            }
+          },
+          "manager": "fabric8-kubernetes-client",
+          "operation": "Update",
+          "time": "2026-03-31T05:44:09Z"
+        }
+      ],
+      "name": "mimo-v2-flash-svc-export",
+      "namespace": "my-space",
+      "resourceVersion": "589327",
+      "uid": "451bda88-099b-4c3d-880a-997ae95ed229"
+    },
+    "spec": {
+      "clusterIP": "10.253.3.104",
+      "clusterIPs": [
+        "10.253.3.104"
+      ],
+      "externalTrafficPolicy": "Cluster",
+      "ipFamilies": [
+        "IPv4"
+      ],
+      "ipFamilyPolicy": "SingleStack",
+      "ports": [
+        {
+          "name": "port-0",
+          "nodePort": 32002,
+          "port": 32002,
+          "protocol": "TCP",
+          "targetPort": 8000
+        }
+      ],
+      "selector": {
+        "app": "mimo-v2-flash"
+      },
+      "sessionAffinity": "None",
+      "type": "NodePort",
+      "internalTrafficPolicy": "Cluster"
+    },
+    "status": {
+      "loadBalancer": {}
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "Service",
+    "metadata": {
+      "creationTimestamp": "2026-03-31T05:44:10Z",
+      "managedFields": [
+        {
+          "apiVersion": "v1",
+          "fieldsType": "FieldsV1",
+          "fieldsV1": {
+            "f:spec": {
+              "f:internalTrafficPolicy": {},
+              "f:ports": {
+                ".": {},
+                "k:{\"port\":8000,\"protocol\":\"TCP\"}": {
+                  ".": {},
+                  "f:name": {},
+                  "f:port": {},
+                  "f:protocol": {},
+                  "f:targetPort": {}
+                }
+              },
+              "f:selector": {},
+              "f:sessionAffinity": {},
+              "f:type": {}
+            }
+          },
+          "manager": "fabric8-kubernetes-client",
+          "operation": "Update",
+          "time": "2026-03-31T05:44:10Z"
+        }
+      ],
+      "name": "qwen3-vl-32b-svc",
+      "namespace": "my-space",
+      "resourceVersion": "589337",
+      "uid": "e059a080-2f8d-4070-9d42-4feff8affc3c"
+    },
+    "spec": {
+      "clusterIP": "10.253.3.184",
+      "clusterIPs": [
+        "10.253.3.184"
+      ],
+      "ipFamilies": [
+        "IPv4"
+      ],
+      "ipFamilyPolicy": "SingleStack",
+      "ports": [
+        {
+          "name": "port-0",
+          "port": 8000,
+          "protocol": "TCP",
+          "targetPort": 8000
+        }
+      ],
+      "selector": {
+        "app": "qwen3-vl-32b"
+      },
+      "sessionAffinity": "None",
+      "type": "ClusterIP",
+      "internalTrafficPolicy": "Cluster"
+    },
+    "status": {
+      "loadBalancer": {}
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "Service",
+    "metadata": {
+      "creationTimestamp": "2026-03-31T05:44:10Z",
+      "managedFields": [
+        {
+          "apiVersion": "v1",
+          "fieldsType": "FieldsV1",
+          "fieldsV1": {
+            "f:spec": {
+              "f:externalTrafficPolicy": {},
+              "f:internalTrafficPolicy": {},
+              "f:ports": {
+                ".": {},
+                "k:{\"port\":32001,\"protocol\":\"TCP\"}": {
+                  ".": {},
+                  "f:name": {},
+                  "f:nodePort": {},
+                  "f:port": {},
+                  "f:protocol": {},
+                  "f:targetPort": {}
+                }
+              },
+              "f:selector": {},
+              "f:sessionAffinity": {},
+              "f:type": {}
+            }
+          },
+          "manager": "fabric8-kubernetes-client",
+          "operation": "Update",
+          "time": "2026-03-31T05:44:10Z"
+        }
+      ],
+      "name": "qwen3-vl-32b-svc-export",
+      "namespace": "my-space",
+      "resourceVersion": "589342",
+      "uid": "b1ed2962-e52f-48b3-ba51-7d0e819f96cb"
+    },
+    "spec": {
+      "clusterIP": "10.253.3.254",
+      "clusterIPs": [
+        "10.253.3.254"
+      ],
+      "externalTrafficPolicy": "Cluster",
+      "ipFamilies": [
+        "IPv4"
+      ],
+      "ipFamilyPolicy": "SingleStack",
+      "ports": [
+        {
+          "name": "port-0",
+          "nodePort": 32001,
+          "port": 32001,
+          "protocol": "TCP",
+          "targetPort": 8000
+        }
+      ],
+      "selector": {
+        "app": "qwen3-vl-32b"
+      },
+      "sessionAffinity": "None",
+      "type": "NodePort",
+      "internalTrafficPolicy": "Cluster"
+    },
+    "status": {
+      "loadBalancer": {}
+    }
+  }
+]

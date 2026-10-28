@@ -1,0 +1,168 @@
+{
+  "verified_date": "2026-10-26",
+  "method": "Pinned source comparison, git history, AST call/signature binding; no GPU execution or image build.",
+  "official_commit": "00b6c4c565a8732c131e1f452d4a17803bb0842b",
+  "pedia_commit": "ed7901322730a79473a1022de3d7a2496b70c63e",
+  "r10_base_commit": "eed1f3d0c6043bd494424a22443ee198dd56f657",
+  "qsa_indexer_interface": {
+    "official_signature": "(self, projected_qk, positions, out='<default>', *, attn, qkv='<default>', slot_mapping='<default>')",
+    "r10_call_line": 427,
+    "r10_call_positional_args": 3,
+    "r10_call_keyword_args": [],
+    "binding_old_caller_to_current_callee": "missing a required keyword-only argument: 'attn'",
+    "current_returns_tuple": true,
+    "indexer_is_overlaid_by_r10": false
+  },
+  "partial_communication_overlay_interface": {
+    "r10_constructor": "(self, group, device, max_size='<default>', max_all_gather_size='<default>', max_mnnvl_all_gather_size='<default>', max_reduce_scatter_size='<default>', max_mnnvl_reduce_scatter_size='<default>', symm_mem_enabled='<default>')",
+    "current_caller_passes_register_graph_buffers": true,
+    "binding_current_keyword_to_r10_constructor": "got an unexpected keyword argument 'register_graph_buffers'",
+    "qualification": "For replacing only custom_all_reduce.py while keeping current cuda_communicator.py; does not show failure of original pinned r10."
+  },
+  "sm120_qsa_table": {
+    "official_has_select_sm120_config": true,
+    "r10_has_select_sm120_config": false,
+    "upstream_pr": 55557,
+    "merged_commit": "dff1bde84d",
+    "introduced_date": "2026-09-16",
+    "tuned_hardware_in_comment": "RTX PRO 6000 Blackwell; RTX 5090 performance not verified"
+  },
+  "qsa_projection_shapes": {
+    "r10_tp4_shapes": [
+      [
+        3584,
+        2560
+      ],
+      [
+        640,
+        2560
+      ]
+    ],
+    "official_tp4_merged_shape": [
+      4224,
+      2560
+    ],
+    "old_sm120_json_has_merged_shape": false,
+    "upstream_pr": 59533,
+    "date": "2026-10-05"
+  },
+  "communication": {
+    "official_pcie_ipc_optin": "VLLM_ALLREDUCE_USE_FLASHINFER_PCIE_IPC",
+    "already_in_r10_overlay": true,
+    "r10_launcher_sets_pcie_ipc": false,
+    "r10_launcher_disables_regular_flashinfer": true,
+    "upstream_pr": 53576,
+    "date": "2026-09-01",
+    "later_fix_prs": [
+      56891,
+      58154
+    ],
+    "qualification": "Backend availability does not prove target performance. Regular FlashInfer and PCIe IPC have separate flags."
+  },
+  "subsequent_qwen_optimizations": [
+    {
+      "pr": 55309,
+      "date": "2026-09-14",
+      "description": "PLE residual and QSA output gate fusion"
+    },
+    {
+      "pr": 58957,
+      "date": "2026-09-28",
+      "description": "HC down projection and SiLU fusion on NVIDIA"
+    },
+    {
+      "pr": 57097,
+      "date": "2026-10-01",
+      "description": "QSA pre-indexer fusion including main QK norm, RoPE, gate, KV write"
+    },
+    {
+      "pr": 59533,
+      "date": "2026-10-05",
+      "description": "Merge QSA projections"
+    },
+    {
+      "pr": 60533,
+      "date": "2026-10-08",
+      "description": "Hybrid Mamba prefix-cache boundary consistency fix"
+    },
+    {
+      "pr": 61601,
+      "date": "2026-10-20",
+      "description": "PLE short-conv internal prefill checkpoints"
+    }
+  ],
+  "overlaid_files": [
+    {
+      "path": "distributed/device_communicators/cuda_communicator.py",
+      "r10_sha256": "1697a4d957606548346f0592fdddf74b979502d8a0c15ab16ed08fa7b0105551",
+      "official_sha256": "c4661aa7e3a393e9ea707f6bae016ed5483536cce9ed1a2b38b884c5f865ecc8",
+      "identical": false
+    },
+    {
+      "path": "distributed/device_communicators/custom_all_reduce.py",
+      "r10_sha256": "938c2ff478c4302c7d57178d4b9ac6f7623d9e8cb268422dd59e4b519fd53343",
+      "official_sha256": "452b0677216e24ddbe9b43a4d3a2c0fe1b925405604097012818d53cbc47cbb6",
+      "identical": false
+    },
+    {
+      "path": "model_executor/layers/linear.py",
+      "r10_sha256": "dabb8640b79c24f9e6795b82b4e1229f37264bbf385f9fdca3c96cb8db318a0e",
+      "official_sha256": "d4b97d850eb8bdee5fd2459e7ac688d00623b54f5ec0ea590c08da0173f8b4d4",
+      "identical": false
+    },
+    {
+      "path": "model_executor/layers/mamba/gdn/qwen_gdn_linear_attn.py",
+      "r10_sha256": "00924ae6b296dca9493e97461fde4c9e69711441fa05486d1dd6acd6bfd02bce",
+      "official_sha256": "944a3a893d44fa94482eef2d52a26b544eb01ac5b0a99ed4b72fb3c3853a14f7",
+      "identical": false
+    },
+    {
+      "path": "models/qwen4_exp/common/qsa_cache.py",
+      "r10_sha256": "87de781ca079278857cc99c618c8057e09f753c6b85ecb2923629e1129cc5133",
+      "official_sha256": "7825f106d981d6cbb72f2edcd2222f3d61c8e7cc434a8fc7a8261a1806915d8f",
+      "identical": false
+    },
+    {
+      "path": "models/qwen4_exp/nvidia/low_latency_gemm.py",
+      "r10_sha256": "0f6d6cb51a4deae9ad6a1bc6e7e42a1c60ac4cac3f34f13bd3da5267c119842f",
+      "official_sha256": "51ee3327fe322a7cf34bf5ba2d455fb4c9c917523f335be13c14a43e7f745eef",
+      "identical": false
+    },
+    {
+      "path": "models/qwen4_exp/nvidia/model.py",
+      "r10_sha256": "0ccfa4def96d0cb20cac8eb261a3645b55df09a7435006dfe987a72deebf2338",
+      "official_sha256": "e9d9c2a6d4201331f6a16cbf08aa46f513397393f02e12e4c746a345f089a1c0",
+      "identical": false
+    },
+    {
+      "path": "models/qwen4_exp/nvidia/mtp.py",
+      "r10_sha256": "6ffb332a36d371c5c1e9e60f8ece630c6b0db9a2c34a1a013ffeaf339c8df22c",
+      "official_sha256": "86126a83027d6446a0be224d7e592f6df6ff246545fbed543c739940dda1ad9e",
+      "identical": false
+    },
+    {
+      "path": "models/qwen4_exp/nvidia/ops/qsa.py",
+      "r10_sha256": "98fd00a038a886f4b2613e2dbfc5b711dc6ce98ed0108aef7131e40edf7c79d5",
+      "official_sha256": "cac685c7b31c32064be1251570b963b360f98e323dfae3f39d4f5bb5e67f7be8",
+      "identical": false
+    },
+    {
+      "path": "models/qwen4_exp/nvidia/qsa.py",
+      "r10_sha256": "2a31b72483f49269c78f199ce7a0c2f29d9bada01a6bf8e5ea62f7e29d064b43",
+      "official_sha256": "7254b2f0137f00b4aff7588b4c9e0444aebc6a9ee3246c94a5f7553435412fd9",
+      "identical": false
+    },
+    {
+      "path": "v1/core/kv_cache_coordinator.py",
+      "r10_sha256": "2b7bfdcb5d4ba06e9fa494a0ba07769a2a9617089b4f93143db6d165a11ff1ff",
+      "official_sha256": "efd7193391197c555ebc0c8f2b593a6c4cb5b7da2978cd57414c0b71170f5971",
+      "identical": false
+    }
+  ],
+  "limitations": [
+    "No target GPU is available.",
+    "TypeErrors above come from static signature binding, not actual vLLM execution.",
+    "Does not enumerate every change or prove newest official is faster.",
+    "Fixes for later features may not apply to old code that never had those features."
+  ]
+}

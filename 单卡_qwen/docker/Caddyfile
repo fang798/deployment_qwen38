@@ -1,0 +1,12 @@
+{
+	email {$ACME_EMAIL}
+}
+
+{$PUBLIC_DOMAIN} {
+	# SSE is flushed automatically by Caddy. Keep normal disconnect cancellation.
+	reverse_proxy new-api:3000 {
+		transport http {
+			response_header_timeout 300s
+		}
+	}
+}

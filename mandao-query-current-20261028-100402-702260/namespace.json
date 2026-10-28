@@ -1,0 +1,41 @@
+{
+  "apiVersion": "v1",
+  "kind": "Namespace",
+  "metadata": {
+    "creationTimestamp": "2026-03-31T05:44:09Z",
+    "labels": {
+      "kubernetes.io/metadata.name": "my-space"
+    },
+    "managedFields": [
+      {
+        "apiVersion": "v1",
+        "fieldsType": "FieldsV1",
+        "fieldsV1": {
+          "f:metadata": {
+            "f:labels": {
+              ".": {},
+              "f:kubernetes.io/metadata.name": {}
+            }
+          },
+          "f:spec": {
+            "f:finalizers": {}
+          }
+        },
+        "manager": "fabric8-kubernetes-client",
+        "operation": "Update",
+        "time": "2026-03-31T05:44:09Z"
+      }
+    ],
+    "name": "my-space",
+    "resourceVersion": "589314",
+    "uid": "2d2f9375-0200-44a3-bec6-fdfab755bfd8"
+  },
+  "spec": {
+    "finalizers": [
+      "kubernetes"
+    ]
+  },
+  "status": {
+    "phase": "Active"
+  }
+}

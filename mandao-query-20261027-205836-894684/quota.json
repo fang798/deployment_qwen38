@@ -1,0 +1,6 @@
+{
+  "success": false,
+  "message": "集群名称由小写字母、数字、下划线、中划线组成，必须以小写字母开头，不能以下划线、中划线结尾",
+  "code": "PARAMETER_VALID_NOT_PASS",
+  "data": null
+}

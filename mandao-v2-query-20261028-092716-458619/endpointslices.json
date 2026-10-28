@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "INVALID_PARAMETER",
+    "message": "无法解析 resourcePlural: endpointslices",
+    "status": 400,
+    "timestamp": "2026-10-28T01:27:26.119+00:00",
+    "path": "/apis/k8s/v2/clusters/5090/namespaces/my-space/endpointslices",
+    "requestID": "fbb90d731ade47cfa1dc5b6706dfe569"
+  }
+}

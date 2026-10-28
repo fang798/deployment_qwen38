@@ -1,0 +1,51 @@
+[
+  {
+    "apiVersion": "storage.k8s.io/v1",
+    "kind": "StorageClass",
+    "metadata": {
+      "annotations": {
+        "storageclass.kubernetes.io/is-default-class": "true"
+      },
+      "creationTimestamp": "2026-03-30T06:54:54Z",
+      "managedFields": [
+        {
+          "apiVersion": "storage.k8s.io/v1",
+          "fieldsType": "FieldsV1",
+          "fieldsV1": {
+            "f:metadata": {
+              "f:annotations": {
+                ".": {},
+                "f:storageclass.kubernetes.io/is-default-class": {}
+              }
+            },
+            "f:mountOptions": {},
+            "f:volumeBindingMode": {},
+            "f:allowVolumeExpansion": {},
+            "f:provisioner": {},
+            "f:reclaimPolicy": {},
+            "f:parameters": {
+              ".": {},
+              "f:archiveOnDelete": {}
+            }
+          },
+          "manager": "kubectl-create",
+          "operation": "Update",
+          "time": "2026-03-30T06:54:54Z"
+        }
+      ],
+      "name": "nfs-sc",
+      "resourceVersion": "408846",
+      "uid": "d78c13b0-8857-4666-b66f-0fb1541fa9f9"
+    },
+    "allowVolumeExpansion": true,
+    "mountOptions": [
+      "vers=4.0"
+    ],
+    "parameters": {
+      "archiveOnDelete": "false"
+    },
+    "provisioner": "nfs-local-provisioner",
+    "reclaimPolicy": "Delete",
+    "volumeBindingMode": "Immediate"
+  }
+]
